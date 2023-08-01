@@ -16,12 +16,7 @@ function App() {
     <>
       \(ax^2 + bx + c = 0\)
       {questions.map((question, index) => (
-        <QuestionComponent key={`key-${index}`}>
-          {question.statement}
-          {question.options.map((option, i) => (
-            <p key={i}>{option}</p>
-          ))}
-        </QuestionComponent>
+        <QuestionComponent key={`key-${index}`} question={question} />
       ))}
       {/* <div>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">

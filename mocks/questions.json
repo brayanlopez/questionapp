@@ -1,6 +1,6 @@
 [
   {
-    "statement": "this is a statement",
+    "statement": "this is a statement \\(ax^2 + bx + c = 0\\)",
     "type": "Multiple",
     "options": ["a", "b", "c", "d"],
     "correct_answer": "b",

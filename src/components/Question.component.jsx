@@ -1,5 +1,5 @@
 const QuestionComponent = (props) => {
-  return <p>{props.children}</p>;
+  return <div>{props.children}</div>;
 };
 
 export default QuestionComponent;

@@ -14,9 +14,13 @@ function App() {
 
   return (
     <>
+      \(ax^2 + bx + c = 0\)
       {questions.map((question, index) => (
         <QuestionComponent key={`key-${index}`}>
           {question.statement}
+          {question.options.map((option, i) => (
+            <p key={i}>{option}</p>
+          ))}
         </QuestionComponent>
       ))}
       {/* <div>

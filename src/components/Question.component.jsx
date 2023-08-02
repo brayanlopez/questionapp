@@ -1,7 +1,7 @@
-const QuestionComponent = ({ question }) => {
+const QuestionComponent = ({ question, index }) => {
   return (
     <div>
-      {question.statement}
+      {index}. {question.statement}
       {question.options.map((option, i) => (
         <p key={i}>{option}</p>
       ))}

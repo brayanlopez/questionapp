@@ -1,6 +1,6 @@
 import "./App.css";
 import QuestionComponent from "./components/Question.component";
-import questions from "../mocks/questions.json";
+import questions from "../mocks/questions_2.json";
 import { Container, Divider, Typography } from "@mui/material";
 
 function App() {

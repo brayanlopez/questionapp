@@ -21,15 +21,72 @@
       "explanation": ""
     },
     {
-      "statement": "",
+      "statement": "Un almacén de computadores posee un total de 900 computadores portátiles marca A y 825 portáliles marca B. Debe distribuir todos los computadores en diferentes compañias de tal manera que, todas reciban igual número de computadores marca A y todas reciban igual número de computadores marca B. El número máximo de compañias a las que se les puede hacer distribución es:",
+      "type": "Multiple",
+      "options": ["a. 25", "b. 90", "c. 180", "d. 75"],
+      "correct_answer": "d",
+      "explanation": ""
+    },
+    {
+      "statement": "Sean \\( p \\), \\( q \\) y \\( r \\) primos diferentes y \\( a \\), \\( b \\) y \\( c \\) enteros positivos con \\(  a>b>c \\). Si \\( n=p^a q^c r^b \\) y \\( m=p^b q^a r^c \\), entonces el máximo divisor de \\( m \\) y \\( n \\) es:",
       "type": "Multiple",
       "options": [
-        "a. \\(-1/2\\) y \\(1/4\\)",
-        "b. \\(-1/5\\) y \\(2/4\\)",
-        "c. \\(-3/5\\) y \\(1/3\\)",
-        "d. \\(1/8\\) y \\(7/4\\)"
+        "a. \\( p^c q^b r^c \\)",
+        "b. \\( p^b q^b r^c \\)",
+        "c. \\( p^b q^c r^c \\)",
+        "d. \\( p^a q^c r^b \\)"
+      ],
+      "correct_answer": "c",
+      "explanation": ""
+    },
+    {
+      "statement": "Si el máximo común divisor de dos enteros m y n es 1, entonces acerca de m y n es correcto afirmar que",
+      "type": "Multiple",
+      "options": [
+        "a. Son números primos.",
+        "b. Su mínimo común múltiplo es mn.",
+        "c. Alguno de ellos es primo.",
+        "d. Uno de ellos es par y el otro es impar."
       ],
       "correct_answer": "b",
+      "explanation": ""
+    },
+    {
+      "statement": "Sean a, b y c números primos diferentes. Analice las siguientes proposiciones: (1) El máximo común divisor de \\( ab^2 \\) y \\( a^2c \\) es \\( abc \\). (2) El mínimo común multiplo de \\( ab^2 \\) y \\( a^2c \\) es \\( ca^2b^2 \\). De las proposiones es correcto afirmar que:",
+      "type": "Multiple",
+      "options": [
+        "a. (1) y (2) son verdaderas",
+        "b. (1) y (2) son falsas",
+        "c. (1) es falsa y (2) es verdadera",
+        "d. (1) es verdadera y (2) es falsa"
+      ],
+      "correct_answer": "c",
+      "explanation": ""
+    },
+    {
+      "statement": "El mínimo común multiplo y máximo común divisor entre 48 y 36 son:",
+      "type": "Multiple",
+      "options": ["a. 144 y 12", "b. 1728 y 12", "c. 144 y 36", "d. 1728 y 36"],
+      "correct_answer": "a",
+      "explanation": ""
+    },
+    {
+      "statement": "Respecto a las siguientes afirmaciones. (1) El mínimo común múltiplo de 20 y 35 es 140. (2) El máximo común divisor de 20 y 35 es 5",
+      "type": "Multiple",
+      "options": [
+        "a. (1) y (2) son verdaderas",
+        "b. (1) y (2) son falsas",
+        "c. (1) es falsa y (2) es verdadera",
+        "d. (1) es verdadera y (2) es falsa"
+      ],
+      "correct_answer": "a",
+      "explanation": ""
+    },
+    {
+      "statement": "La suma del mínimo común múltiplo y el máximo común divisor de 48 y 36 es",
+      "type": "Multiple",
+      "options": ["a. 1740", "b. 180", "c. 156", "d. 1764"],
+      "correct_answer": "c",
       "explanation": ""
     }
   ]

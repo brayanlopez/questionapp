@@ -1,31 +1,51 @@
 import "./App.css";
-import QuestionComponent from "./components/Question.component";
-import questions from "../mocks/questions_2.json";
-import { Container, Divider, Typography } from "@mui/material";
+import { Button, Container, Typography } from "@mui/material";
+import FunctionsIcon from "@mui/icons-material/Functions";
+
+import questions from "../mocks/questions.json";
+import questions2 from "../mocks/questions_2.json";
+import ExamComponent from "./components/Exam.component";
+import { useState } from "react";
 
 function App() {
+  const mathList = [questions, questions2];
+
+  const [indexSelected, setindexSelected] = useState(0);
+  const [isItemSelected, setisItemSelected] = useState(false);
+
+  const onClickButton = (index) => {
+    setisItemSelected(true);
+    setindexSelected(index);
+  };
+
+  const onClickBackButton = () => {
+    setisItemSelected(false);
+  };
+
   return (
-    <Container
-      maxWidth="md"
-      sx={{
-        display: "flex",
-        alignItems: "center",
-        flexWrap: "wrap",
-        gap: "5px 0",
-        textAlign: "start",
-      }}
-    >
-      <Typography variant="h2">{questions.title}</Typography>
-      {questions.questions.map((question, index) => (
+    <Container>
+      {!isItemSelected ? (
         <>
-          <QuestionComponent
-            key={`key-${index}`}
-            question={question}
-            index={index + 1}
-          />
-          <Divider />
+          <Typography variant="h2">Ejercicios sobre matemáticas</Typography>
+          {mathList.map((item, index) => (
+            <Button
+              key={index}
+              startIcon={<FunctionsIcon />}
+              size="large"
+              fullWidth
+              variant="outlined"
+              onClick={() => onClickButton(index)}
+            >
+              {item.title}
+            </Button>
+          ))}
         </>
-      ))}
+      ) : (
+        <ExamComponent
+          questions={mathList[indexSelected]}
+          onClickBackButton={onClickBackButton}
+        />
+      )}
     </Container>
   );
 }

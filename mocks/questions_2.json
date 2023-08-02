@@ -1,0 +1,36 @@
+{
+  "title": "Máximo común divisor (mcd) y Mínimo común multiplo (mcm)",
+  "questions": [
+    {
+      "statement": "De dos varillas cuyas longitudes son 360 cm y 108 cm, respectvamente, se desea obtener trozos iguales que tengan la longitud máxima posible. El mayor número total de trozos obtenidos es",
+      "type": "Multiple",
+      "options": ["a. 13", "b. 12", "c. 18", "d. 16"],
+      "correct_answer": "a",
+      "explanation": ""
+    },
+    {
+      "statement": "Sean a y b dos enteros positivos. Se denota \\(mcd(a,b)\\) al máximo común divisor y \\(mcm(a,b)\\) al mínimo común multiplo. De las siguientes afirmaciones, la única verdadera es",
+      "type": "Multiple",
+      "options": [
+        "a. Si \\( mcd(a,b) = a\\), entonces \\( b=a \\).",
+        "b. Si a y b son diferentes, entonces \\( mcd(a,b) > mcm(a,b) \\).",
+        "c. Si k es un entero positivo y \\( a=mcd(a,b) \\) , entonces \\( (a/b)^k \\) es un entero.",
+        "d. \\( mcd(a,b) < b \\)."
+      ],
+      "correct_answer": "c",
+      "explanation": ""
+    },
+    {
+      "statement": "",
+      "type": "Multiple",
+      "options": [
+        "a. \\(-1/2\\) y \\(1/4\\)",
+        "b. \\(-1/5\\) y \\(2/4\\)",
+        "c. \\(-3/5\\) y \\(1/3\\)",
+        "d. \\(1/8\\) y \\(7/4\\)"
+      ],
+      "correct_answer": "b",
+      "explanation": ""
+    }
+  ]
+}

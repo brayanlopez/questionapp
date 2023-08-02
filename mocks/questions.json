@@ -18,7 +18,7 @@
       "type": "Multiple",
       "options": ["a. 28", "b. 32", "c. 38", "d. 42"],
       "correct_answer": "b",
-      "explanation": "this is a test for explanation"
+      "explanation": ""
     },
     {
       "statement": "Los 2/5 de estudiantes de un curso son mujeres. Es correcto afirmar que en el curso hay",
@@ -27,13 +27,13 @@
         "a. Mas hombres que mujeres",
         "b. Dos mujeres y cinco hombres",
         "c. Mas mujeres que hombres",
-        "d. Dos hombre y cinco mujeres"
+        "d. Dos hombres y cinco mujeres"
       ],
       "correct_answer": "a",
-      "explanation": "this is a test for explanation"
+      "explanation": ""
     },
     {
-      "statement": "Considere las siguientes propociones relacionadas con los númeroes reales, dado a=-17/12 y b=15/12. \n (1) Entre a y b hay exactamente 3 númertos enteros. \n (2) En la recta númerica la coordenada el punto medio entre a y b es -1/12",
+      "statement": "Considere las siguientes propociones relacionadas con los númeroes reales, dado a=-17/12 y b=15/12. \n (1) Entre a y b hay exactamente 3 números enteros. \n (2) En la recta númerica la coordenada el punto medio entre a y b es -1/12",
       "type": "Multiple",
       "options": [
         "a. (1) y (2) son verdaderas",
@@ -42,10 +42,10 @@
         "d. (1) es verdadera y (2) es falsa"
       ],
       "correct_answer": "a",
-      "explanation": "this is a test for explanation"
+      "explanation": ""
     },
     {
-      "statement": "El orden correcto de menor a mayor de los numeros 7/3, 17/7 y 2.35 es",
+      "statement": "El orden correcto de menor a mayor de los números 7/3, 17/7 y 2.35 es",
       "type": "Multiple",
       "options": [
         "a. \\( 7/3 < 2.35 < 17/7\\)",
@@ -54,7 +54,7 @@
         "d. \\( 17/7 < 7/3 < 2.35\\)"
       ],
       "correct_answer": "a",
-      "explanation": "this is a test for explanation"
+      "explanation": ""
     }
   ]
 }

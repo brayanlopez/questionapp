@@ -1,40 +1,32 @@
 import "./App.css";
 import QuestionComponent from "./components/Question.component";
 import questions from "../mocks/questions.json";
-import { Typography } from "@mui/material";
+import { Container, Divider, Typography } from "@mui/material";
 
 function App() {
   return (
-    <>
+    <Container
+      maxWidth="md"
+      sx={{
+        display: "flex",
+        alignItems: "center",
+        flexWrap: "wrap",
+        gap: "5px 0",
+        textAlign: "start",
+      }}
+    >
       <Typography variant="h2">{questions.title}</Typography>
       {questions.questions.map((question, index) => (
-        <QuestionComponent
-          key={`key-${index}`}
-          question={question}
-          index={index + 1}
-        />
+        <>
+          <QuestionComponent
+            key={`key-${index}`}
+            question={question}
+            index={index + 1}
+          />
+          <Divider />
+        </>
       ))}
-      {/* <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p> */}
-    </>
+    </Container>
   );
 }
 

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 import { Button, Container, Typography } from "@mui/material";
 import FunctionsIcon from "@mui/icons-material/Functions";
@@ -5,7 +6,6 @@ import FunctionsIcon from "@mui/icons-material/Functions";
 import questions from "../mocks/questions.json";
 import questions2 from "../mocks/questions_2.json";
 import ExamComponent from "./components/Exam.component";
-import { useState } from "react";
 
 function App() {
   const mathList = [questions, questions2];

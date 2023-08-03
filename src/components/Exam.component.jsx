@@ -1,7 +1,7 @@
+import { useEffect } from "react";
 import { Box, Container, Divider, IconButton, Typography } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import QuestionComponent from "./Question.component";
-import { useEffect } from "react";
 
 const ExamComponent = ({ questions, onClickBackButton }) => {
   useEffect(() => {

@@ -1,8 +1,8 @@
 {
-  "title": "Regla de tres y porcentajes",
+  "title": "Mix de aritmética",
   "questions": [
     {
-      "statement": "Un comerciante rebaja un 20% el precio x de un cierto producto y, posteriormente, incrementa el nuevo precio un 20%. Si r denota el monto de la rebaja y a denota el monto del aumento",
+      "statement": "Un comerciante rabaja un 20% el precio x de un cierto producto y, posteriormente, incrementa el nuevo precio un 20%. Si r denota el monto de la rebaja y a denota el monto del aumento",
       "type": "Multiple",
       "options": [
         "a. \\(r<a\\)",

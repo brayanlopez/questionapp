@@ -1,6 +1,6 @@
 const QuestionComponent = ({ question, index }) => {
   return (
-    <div style={{ margin: "15px 0" }}>
+    <div style={{ margin: "15px 0", width: "100%" }}>
       {index}. {question.statement}
       {question.options.map((option, i) => (
         <p key={i}>{option}</p>

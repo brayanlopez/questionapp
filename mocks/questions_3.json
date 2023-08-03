@@ -1,0 +1,144 @@
+{
+  "title": "Potenciación, radicación y logaritmación",
+  "questions": [
+    {
+      "statement": "Al escribir la expresión \\( 4 \\log(x) + 1/2 \\log(x+1) \\) como un solo logaritmo se obtiene:",
+      "type": "Multiple",
+      "options": [
+        "a. \\(9/2 \\log(2x+1) \\)",
+        "b. \\(2 \\log(x+1)\\)",
+        "c. \\(\\log(x^4)\\sqrt{x+1} \\)",
+        "d. \\(\\log(x^4 + \\sqrt{x+1} ) \\)"
+      ],
+      "correct_answer": "c",
+      "explanation": ""
+    },
+    {
+      "statement": "Si \\(\\log_3(9x) = 0 \\), entonces:",
+      "type": "Multiple",
+      "options": [
+        "a. \\(x = 0\\)",
+        "b. \\(x = 1\\)",
+        "c. \\(x = 1/3\\)",
+        "d. \\(x = 1/9\\)"
+      ],
+      "correct_answer": "d",
+      "explanation": ""
+    },
+    {
+      "statement": "La solución de la ecuación \\(64^{x-2} = 256^{2x} es:\\)",
+      "type": "Multiple",
+      "options": [
+        "a. \\(x = -2\\)",
+        "b. \\(x = 6/7\\)",
+        "c. \\(x = -6/5\\)",
+        "d. \\(x = 0\\)"
+      ],
+      "correct_answer": "c",
+      "explanation": ""
+    },
+    {
+      "statement": "Si a, b, c, son números primos diferentes y \\(n = \\frac{a^{-1} b^{-3}}{a^{-2} b^{-4} c^{-2}} \\), es correcto afirmar que:",
+      "type": "Multiple",
+      "options": [
+        "a. n es un entero",
+        "b. n es un número primo",
+        "c. n es racional negativo",
+        "d. n es irracional"
+      ],
+      "correct_answer": "a",
+      "explanation": ""
+    },
+    {
+      "statement": "La expresión \\(\\log_{10}(x^3/y^2)\\) es equivalente a la expresión:",
+      "type": "Multiple",
+      "options": [
+        "a. \\(6 \\log(x/y) \\)",
+        "b. \\( \\frac{\\log_{10} x^3}{\\log_{10} y^2} \\)",
+        "c. \\(6(\\log_{10} x - \\log_{10} y)\\)",
+        "d. \\( 3\\log_{10} x - 2 \\log_{10}y \\)"
+      ],
+      "correct_answer": "d",
+      "explanation": ""
+    },
+    {
+      "statement": "Al simplificar la expresión \\( \\frac{x^5y^3z^{-2}}{x{-1}y^4z} \\) se obtiene:",
+      "type": "Multiple",
+      "options": [
+        "a. \\(x^6 y^{-1}z^{-3} \\)",
+        "b. \\(x^6 y^{-1}z^{-1} \\)",
+        "c. \\(x^4 y^{2}z^{-3} \\)",
+        "d. \\(x^4 y^{-1}z^{-1} \\)"
+      ],
+      "correct_answer": "a",
+      "explanation": ""
+    },
+    {
+      "statement": "Se tiene que \\( \\log_2(x+3) =4 \\) y \\(3^{y-1} = 1/27\\) ¿Cuál es el resultado de \\(x+y\\)?",
+      "type": "Multiple",
+      "options": ["a. 3", "b. 20", "c. 11", "d. 13"],
+      "correct_answer": "c",
+      "explanation": ""
+    },
+    {
+      "statement": "Si \\( \\log_a(x^2-1)=0 \\), entonces x es",
+      "type": "Multiple",
+      "options": [
+        "a. \\(0\\)",
+        "b. \\(\\pm 1\\)",
+        "c. \\(\\pm \\sqrt{2}\\) ",
+        "d. \\(\\pm 2\\) "
+      ],
+      "correct_answer": "c",
+      "explanation": ""
+    },
+    {
+      "statement": "Considere las siguientes afirmaciones acerca del número \\( a = \\log_2(36) \\). (1) a es un número mayor que 5. (2) \\(a^2\\) es igual a 36",
+      "type": "Multiple",
+      "options": [
+        "a. (1) y (2) son verdaderas",
+        "b. (1) y (2) son falsas",
+        "c. (1) es falsa y (2) es verdadera",
+        "d. (1) es verdadera y (2) es falsa"
+      ],
+      "correct_answer": "d",
+      "explanation": ""
+    },
+    {
+      "statement": "Sean \\(r=a/3^m\\) y \\(s=a/3^n \\) donde m y n son números positivos. Considere las siguientes afirmaciones (1) Si a es positivo y \\(n<m\\), entonces \\(r<s\\).      (2) Si a es negativo y \\(n<m\\), entonces \\(r<s\\). (3) Si a es positivo y \\(n<m\\), entonces \\(r>s\\). \n (4) Si a es negativo y \\(n<m\\), entonces \\(r>s\\). De las afirmaciones es correcto afirmar que las únicas verdaderas son:",
+      "type": "Multiple",
+      "options": [
+        "a. (1) y (2)",
+        "b. (2) y (3)",
+        "c. (3) y (4)",
+        "d. (1) y (4)"
+      ],
+      "correct_answer": "d",
+      "explanation": ""
+    },
+    {
+      "statement": "Los mayores enteros positivos a y b tales que \\(2^a 3^b\\) divide a 120 son:",
+      "type": "Multiple",
+      "options": [
+        "a. \\(a = 1\\) y \\(b = 3\\)",
+        "b. \\(a = 3\\) y \\(b = 1\\)",
+        "c. \\(a = 2\\) y \\(b = 1\\)",
+        "d. \\(a = 1\\) y \\(b = 2\\)"
+      ],
+      "correct_answer": "b",
+      "explanation": ""
+    },
+    {
+      "statement": "La expresión \\(\\frac{(x\\times 10^4)(x\\times 10^{-2})}{2\\times 10^5}\\) es igual a",
+      "type": "Multiple",
+      "options": [
+        "a. \\(30 \\times 10^7\\)",
+        "b. \\(30 \\times 10^{-3}\\)",
+        "c. \\(7.5 \\times 10^{-3}\\)",
+        "d. \\(7.5 \\times 10^7\\)"
+      ],
+      "correct_answer": "c",
+      "explanation": ""
+    }
+  ]
+}

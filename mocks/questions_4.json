@@ -1,0 +1,45 @@
+{
+  "title": "Regla de tres y porcentajes",
+  "questions": [
+    {
+      "statement": "Un comerciante rabaja un 20% el precio x de un cierto producto y, posteriormente, incrementa el nuevo precio un 20%. Si r denota el monto de la rebaja y a denota el monto del aumento",
+      "type": "Multiple",
+      "options": [
+        "a. \\(r<a\\)",
+        "b. \\(r>a\\)",
+        "c. \\(r=a\\)",
+        "d. \\(r=2a\\)"
+      ],
+      "correct_answer": "b",
+      "explanation": ""
+    },
+    {
+      "statement": "El peso de un objeto en la Luna es directamente proporcional a su peso en la Tierra. El peso en la Luna de una gran cabra es de 360 libras y su peso en la Tierra es de 2160 libras. El alce macho más grande del que se tenga noticia pesa 1800 libras en la Tierra. En la Luna el peso de este alce, en libras seria",
+      "type": "Multiple",
+      "options": ["a. 400", "b. 200", "c. 600", "d. 200"],
+      "correct_answer": "d",
+      "explanation": ""
+    },
+    {
+      "statement": "El 10% de los estudiantes de psicologia de cierta universidad es afrodescendiente y el 90% de ellos es de sexo femenino. Si en total hay 200 estudiantes de psicologia en sa institución, entonces los hombres afrosdescendientes son",
+      "type": "Multiple",
+      "options": ["a. 2", "b. 18", "c. 20", "d. 180"],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "La presión varía directamente proporcional con la profundidad. Si la presión a una profundidad de 5 pies es 25 libra/pie^2, la presión a 10 pies es ____ libra/pie^2 es ",
+      "type": "Multiple",
+      "options": ["a. 2.5", "b. 50", "c. 40", "d. 20"],
+      "correct_answer": "d",
+      "explanation": ""
+    },
+    {
+      "statement": "En un censo realizado a una pequeña población se determino que esta tenía 1000 habitantes de los cuales 32.5% eran niños y el resto adultos. El número de adultos de dicha población es",
+      "type": "Multiple",
+      "options": ["a. 325", "b. 675", "c. 780", "d. 670"],
+      "correct_answer": "d",
+      "explanation": ""
+    }
+  ]
+}

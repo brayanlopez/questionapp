@@ -62,6 +62,7 @@ function MainView() {
       >
         <AppBar position="static">
           <Toolbar variant="dense">
+            {/* TODO: implement menu button for more functionalities to future */}
             {/* <IconButton
             edge="start"
             color="inherit"

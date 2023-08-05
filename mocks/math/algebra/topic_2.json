@@ -14,16 +14,62 @@
       "explanation": "d"
     },
     {
-      "statement": "De las expresiones \\( \\frac{x^2-y^2}{x+y}\\)",
+      "statement": "El polinomio \\( x^3-8x^2+4x+48\\) posee tres raices reales una de las cuales es 4. La suma y el producto de las otras dos raices son, respectivamente",
       "type": "Multiple",
-      "options": ["a. \\(-1/2\\)", "b. ", "c. ", "d. "],
+      "options": [
+        "a. \\(-4\\) y \\(-12\\)",
+        "b. \\( 4\\) y \\(-12\\)",
+        "c. \\(-4\\) y \\( 12\\)",
+        "d. \\( 4\\) y \\( 12\\)"
+      ],
+      "correct_answer": "b",
+      "explanation": ""
+    },
+    {
+      "statement": "Si el polinomio \\( \\frac{x^2-y^2}{x+y}\\) es divisible por \\(x+1\\), entonces k es igual a",
+      "type": "Multiple",
+      "options": [
+        "a. \\(-3\\) ó \\(-1\\)",
+        "b. \\(-2 + \\sqrt{7} \\) ó \\(-2 - \\sqrt{7}\\)",
+        "c. \\(2 + \\sqrt{7}\\) ó \\(2 - \\sqrt{7}\\)",
+        "d. \\(3\\) ó \\(1\\)"
+      ],
       "correct_answer": "",
       "explanation": ""
     },
     {
-      "statement": "De las expresiones \\( \\frac{x^2-y^2}{x+y}\\)",
+      "statement": "Sea k un número natural. Si al dividir el doble de k entre 6 se obtiene como cociente n y residuo 4. Entonces",
       "type": "Multiple",
-      "options": ["a. \\(-1/2\\)", "b. ", "c. ", "d. "],
+      "options": [
+        "a. \\(k-6n=4\\)",
+        "b. \\(k-3n=2\\)",
+        "c. \\(2k-3n=2\\)",
+        "d. \\(6n-k=4\\)"
+      ],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "El mínimo común múltiplo de los polinomios \\( f(x) = x^2+2x1, g(x) = 3x+3 \\) y \\( h(x) = 6 \\) es",
+      "type": "Multiple",
+      "options": [
+        "a. \\(6(x+1)^2\\)",
+        "b. \\(3(x+1)\\)",
+        "c. \\(6(x+1)\\)",
+        "d. \\(3(x+1)^2\\)"
+      ],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "Con respecto a la ecuaciíon \\( 3x + 2 = 7x + 5 - 4x \\) es correcto afirmar que en el conjunto de los números reales",
+      "type": "Multiple",
+      "options": [
+        "a. tiene una solución",
+        "b. tiene solamente dos soluciones",
+        "c. no tiene solución",
+        "d. tiene infinitas soluciones"
+      ],
       "correct_answer": "",
       "explanation": ""
     },

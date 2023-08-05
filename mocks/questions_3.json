@@ -129,7 +129,7 @@
       "explanation": ""
     },
     {
-      "statement": "La expresión \\(\\frac{(x\\times 10^4)(x\\times 10^{-2})}{2\\times 10^5}\\) es igual a",
+      "statement": "La expresión \\(\\frac{(3\\times 10^4)(5\\times 10^{-2})}{2\\times 10^5}\\) es igual a",
       "type": "Multiple",
       "options": [
         "a. \\(30 \\times 10^7\\)",

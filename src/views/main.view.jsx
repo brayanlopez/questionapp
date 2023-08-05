@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import {
   AppBar,
   Box,
@@ -14,12 +15,13 @@ import FunctionsIcon from "@mui/icons-material/Functions";
 import MenuIcon from "@mui/icons-material/Menu";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 
+import ExamComponent from "../components/Exam.component";
+
 import questions from "../../mocks/questions.json";
 import questions2 from "../../mocks/questions_2.json";
 import questions3 from "../../mocks/questions_3.json";
 import questions4 from "../../mocks/questions_4.json";
-import ExamComponent from "../components/Exam.component";
-import { Link } from "react-router-dom";
+import topic2 from "../../mocks/math/algebra/topic_2.json";
 
 const darkTheme = createTheme({
   palette: {
@@ -28,7 +30,10 @@ const darkTheme = createTheme({
 });
 
 function MainView() {
-  const mathList = [questions, questions2, questions3, questions4];
+  const arithmetic = [questions, questions2, questions3, questions4];
+  // const algebra = [topic2];
+  // const mathList = [...arithmetic, ...algebra];
+  const mathList = [...arithmetic];
 
   const [indexSelected, setindexSelected] = useState(0);
   const [isItemSelected, setisItemSelected] = useState(false);
@@ -44,7 +49,17 @@ function MainView() {
 
   return (
     <ThemeProvider theme={darkTheme}>
-      <Container sx={{ minHeight: "100vh", minWidth: "75vw", margin: 0 }}>
+      <Container
+        className="main-container"
+        disableGutters
+        maxWidth="xl"
+        sx={{
+          minHeight: "100vh",
+          width: "100vw",
+          margin: 0,
+          padding: "0",
+        }}
+      >
         <AppBar position="static">
           <Toolbar variant="dense">
             {/* <IconButton
@@ -73,7 +88,7 @@ function MainView() {
           </Toolbar>
         </AppBar>
 
-        <Container>
+        <Container sx={{ margin: "auto" }}>
           {!isItemSelected ? (
             <>
               <Typography variant="h2">Ejercicios sobre matemáticas</Typography>

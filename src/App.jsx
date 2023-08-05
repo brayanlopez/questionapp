@@ -1,4 +1,3 @@
-import "./App.css";
 import ErrorPage from "./views/ErrorPage";
 import MainView from "./views/main.view";
 

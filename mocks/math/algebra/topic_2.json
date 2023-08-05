@@ -1,0 +1,52 @@
+{
+  "title": "Mix de algebra",
+  "questions": [
+    {
+      "statement": "De las expresiones \\( \\frac{x^2-y^2}{x+y}\\) y \\(x - y\\) es correcto afirmar que",
+      "type": "Multiple",
+      "options": [
+        "a. son siempre iguales",
+        "b. son siempre distintas",
+        "c. son iguales solo cuando \\(x\\ne -y\\)",
+        "d. son iguales solo cuando \\( x=y \\)"
+      ],
+      "correct_answer": "",
+      "explanation": "d"
+    },
+    {
+      "statement": "De las expresiones \\( \\frac{x^2-y^2}{x+y}\\)",
+      "type": "Multiple",
+      "options": ["a. \\(-1/2\\)", "b. ", "c. ", "d. "],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "De las expresiones \\( \\frac{x^2-y^2}{x+y}\\)",
+      "type": "Multiple",
+      "options": ["a. \\(-1/2\\)", "b. ", "c. ", "d. "],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "De las expresiones \\( \\frac{x^2-y^2}{x+y}\\)",
+      "type": "Multiple",
+      "options": ["a. \\(-1/2\\)", "b. ", "c. ", "d. "],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "De las expresiones \\( \\frac{x^2-y^2}{x+y}\\)",
+      "type": "Multiple",
+      "options": ["a. \\(-1/2\\)", "b. ", "c. ", "d. "],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "De las expresiones \\( \\frac{x^2-y^2}{x+y}\\)",
+      "type": "Multiple",
+      "options": ["a. \\(-1/2\\)", "b. ", "c. ", "d. "],
+      "correct_answer": "",
+      "explanation": ""
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "title": "Máximo común divisor (mcd) y Mínimo común multiplo (mcm)",
+  "title": "Máximo común divisor (mcd) y Mínimo común múltiplo (mcm)",
   "questions": [
     {
       "statement": "De dos varillas cuyas longitudes son 360 cm y 108 cm, respectvamente, se desea obtener trozos iguales que tengan la longitud máxima posible. El mayor número total de trozos obtenidos es",
@@ -9,15 +9,15 @@
       "explanation": ""
     },
     {
-      "statement": "Sean a y b dos enteros positivos. Se denota \\(mcd(a,b)\\) al máximo común divisor y \\(mcm(a,b)\\) al mínimo común multiplo. De las siguientes afirmaciones, la única verdadera es",
+      "statement": "Sean a y b dos enteros positivos. Se denota \\(mcd(a,b)\\) al máximo común divisor y \\(mcm(a,b)\\) al mínimo común múltiplo. De las siguientes afirmaciones, la única verdadera es",
       "type": "Multiple",
       "options": [
         "a. Si \\( mcd(a,b) = a\\), entonces \\( b=a \\).",
         "b. Si a y b son diferentes, entonces \\( mcd(a,b) > mcm(a,b) \\).",
         "c. Si k es un entero positivo y \\( a=mcd(a,b) \\) , entonces \\( (a/b)^k \\) es un entero.",
-        "d. \\( mcd(a,b) < b \\)."
+        "d. \\( mcd(a,b) \\leq b \\)."
       ],
-      "correct_answer": "c",
+      "correct_answer": "d",
       "explanation": ""
     },
     {
@@ -52,7 +52,7 @@
       "explanation": ""
     },
     {
-      "statement": "Sean a, b y c números primos diferentes. Analice las siguientes proposiciones: (1) El máximo común divisor de \\( ab^2 \\) y \\( a^2c \\) es \\( abc \\). (2) El mínimo común multiplo de \\( ab^2 \\) y \\( a^2c \\) es \\( ca^2b^2 \\). De las proposiones es correcto afirmar que:",
+      "statement": "Sean a, b y c números primos diferentes. Analice las siguientes proposiciones: (1) El máximo común divisor de \\( ab^2 \\) y \\( a^2c \\) es \\( abc \\). (2) El mínimo común múltiplo de \\( ab^2 \\) y \\( a^2c \\) es \\( ca^2b^2 \\). De las proposiones es correcto afirmar que:",
       "type": "Multiple",
       "options": [
         "a. (1) y (2) son verdaderas",
@@ -64,7 +64,7 @@
       "explanation": ""
     },
     {
-      "statement": "El mínimo común multiplo y máximo común divisor entre 48 y 36 son:",
+      "statement": "El mínimo común múltiplo y máximo común divisor entre 48 y 36 son:",
       "type": "Multiple",
       "options": ["a. 144 y 12", "b. 1728 y 12", "c. 144 y 36", "d. 1728 y 36"],
       "correct_answer": "a",

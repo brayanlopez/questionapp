@@ -1,5 +1,12 @@
 import { useEffect } from "react";
-import { Box, Container, Divider, IconButton, Typography } from "@mui/material";
+import {
+  Box,
+  Container,
+  Divider,
+  Grid,
+  IconButton,
+  Typography,
+} from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import QuestionComponent from "./Question.component";
 
@@ -29,12 +36,7 @@ const ExamComponent = ({ questions, onClickBackButton }) => {
       </Box>
       {questions.questions.map((question, index) => (
         <>
-          <QuestionComponent
-            key={`key-${index}`}
-            question={question}
-            index={index + 1}
-          />
-          <Divider />
+          <QuestionComponent question={question} index={index + 1} />
         </>
       ))}
     </Container>

@@ -1,16 +1,20 @@
-import { useEffect } from "react";
-import {
-  Box,
-  Container,
-  Divider,
-  Grid,
-  IconButton,
-  Typography,
-} from "@mui/material";
+import { useEffect, useState } from "react";
+import { Box, Container, IconButton, Typography } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import QuestionComponent from "./Question.component";
 
 const ExamComponent = ({ questions, onClickBackButton }) => {
+  const [tooltipMessage, setTooltipMessage] = useState("copiar pregunta");
+
+  const onCopy = (question) => {
+    navigator.clipboard.writeText(
+      `${question.statement} \n ${question.options.map(
+        (option) => `${option} \n`
+      )}`
+    );
+    setTooltipMessage("pregunta copiada");
+  };
+
   useEffect(() => {
     MathJax.typesetPromise();
   }, []);
@@ -36,7 +40,13 @@ const ExamComponent = ({ questions, onClickBackButton }) => {
       </Box>
       {questions.questions.map((question, index) => (
         <>
-          <QuestionComponent question={question} index={index + 1} />
+          <QuestionComponent
+            question={question}
+            index={index + 1}
+            onCopy={() => onCopy(question)}
+            onCloseTooltip={() => setTooltipMessage("copiar pregunta")}
+            tooltipMessage={tooltipMessage}
+          />
         </>
       ))}
     </Container>

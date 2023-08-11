@@ -61,7 +61,50 @@
       "type": "Multiple",
       "options": ["a. 3", "b. 4", "c. 5", "d. 6"],
       "correct_answer": "a",
-      "explanation": "Los divisores de 3 son 1 y 2, que sumados dan igual"
+      "explanation": "Los divisores de 3 son 1 y 2, que sumados dan igual 3, por tanto 3 es un número perfecto."
+    },
+    {
+      "statement": "Si x es un número real, se define el valor absoluto de x de la siguiente manera: \\( |x| = x \\) si \\( x \\geq 0 \\) y \\( |x| = -x \\) si \\( x<0\\). De acuerdo con la definición anterior, es verdadero que ",
+      "type": "Multiple",
+      "options": [
+        "a. si \\( x \\geq -3 \\), \\( |x + 3| = x+3\\)",
+        "b. si \\( x<0 \\), \\( |x-2| = x-2\\)",
+        "c. si \\( x \\in \\mathbb{R} \\), \\( |-x|=x\\)",
+        "d. si \\( x \\in \\mathbb{R} \\), \\( |x-5|=5-x\\)"
+      ],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "Un fabricante de zapatos puede vender todos los pares de zapatos que produce a un precio de 60 mil cada par. El fabricante tiene costos fijos mensuales de 24 millones. Si el cuero e insumos necesarios para producir cada par le cuesta 20 mil, el menor número de pares que debe producir y vender al mes para obtener utilidades es: ",
+      "type": "Multiple",
+      "options": ["a. 300", "b. 600", "c. 1200", "d. 4000"],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "Si x es cualquier real mayor que 1, al ordenar de menor a mayor los números 1, x, \\( \\sqrt{x} \\), \\( 1/x\\), \\(1/\\sqrt{x} \\) se obtiene",
+      "type": "Multiple",
+      "options": [
+        "a. \\( 1/x, 1/\\sqrt{x}, 1, \\sqrt{x}, x \\)",
+        "b. \\( 1/\\sqrt{x}, 1/x, \\sqrt{x}, 1, x \\)",
+        "c. \\( 1/\\sqrt{x}, 1/x, \\sqrt{x}, 1, x \\)",
+        "d. \\( 1/\\sqrt{x}, 1/x, 1, \\sqrt{x}, x \\)"
+      ],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "Si m y n representan números enteros cualesquiera, acerca de \\( m^2-n^2 \\) es correcto afirmar que",
+      "type": "Multiple",
+      "options": [
+        "a. es el cuadrado de un número entero.",
+        "b. es igual a 0 solo si \\( m = n\\).",
+        "c. es par solo si m y n son pares.",
+        "d. es impar si m es par y n es impar."
+      ],
+      "correct_answer": "",
+      "explanation": ""
     }
   ]
 }

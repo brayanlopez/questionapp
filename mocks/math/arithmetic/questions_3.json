@@ -7,7 +7,7 @@
       "options": [
         "a. \\(9/2 \\log(2x+1) \\)",
         "b. \\(2 \\log(x+1)\\)",
-        "c. \\(\\log(x^4)\\sqrt{x+1} \\)",
+        "c. \\(\\log(x^4 \\sqrt{x+1}) \\)",
         "d. \\(\\log(x^4 + \\sqrt{x+1} ) \\)"
       ],
       "correct_answer": "c",

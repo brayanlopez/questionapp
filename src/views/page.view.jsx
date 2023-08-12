@@ -11,7 +11,7 @@ import questions4 from "../../mocks/math/arithmetic/questions_4.json";
 import questions5 from "../../mocks/math/arithmetic/questions_5.json";
 
 import topic1 from "../../mocks/math/algebra/topic_1.json";
-// import topic2 from "../../mocks/math/algebra/topic_2.json";
+import topic2 from "../../mocks/math/algebra/topic_2.json";
 
 function PageView() {
   const arithmetic = [

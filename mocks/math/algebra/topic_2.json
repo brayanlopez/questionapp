@@ -1,5 +1,5 @@
 {
-  "title": "Mix de algebra",
+  "title": "Ecuación cuadrática",
   "questions": [
     {
       "statement": "",
@@ -9,23 +9,74 @@
       "explanation": ""
     },
     {
-      "statement": "",
+      "statement": "Los valores de x que satisfacen la igualdad \\(3/2x - 1/2 = 2x \\) son ",
       "type": "Multiple",
-      "options": ["a. \\( \\)", "b. \\( \\)", "c. \\( \\)", "d. \\( \\)"],
+      "options": [
+        "a. \\( 0, -1/2 \\)",
+        "b. \\( -1, 3/4 \\)",
+        "c. \\( 1, -3/4 \\)",
+        "d. \\( 1, -1/2 \\)"
+      ],
       "correct_answer": "",
       "explanation": ""
     },
     {
-      "statement": "",
+      "statement": "La ecuación \\(x^2 - 2 \\sqrt{5}x + c = 0 \\) tiene soluciones reales solo si",
       "type": "Multiple",
-      "options": ["a. \\( \\)", "b. \\( \\)", "c. \\( \\)", "d. \\( \\)"],
+      "options": [
+        "a. \\( c < 0 \\)",
+        "b. \\( c \\geq 0 \\)",
+        "c. \\( c \\leq 5\\)",
+        "d. \\( c > 5\\)"
+      ],
       "correct_answer": "",
       "explanation": ""
     },
     {
-      "statement": "",
+      "statement": "El producto de las soluciones de la ecuación \\( 2x^2 - 5x + 2 = 0\\) es",
       "type": "Multiple",
-      "options": ["a. \\( \\)", "b. \\( \\)", "c. \\( \\)", "d. \\( \\)"],
+      "options": [
+        "a. \\( 5/2 \\)",
+        "b. \\( 1/2 \\)",
+        "c. \\( 1 \\)",
+        "d. \\( 2 \\)"
+      ],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "El producto de las soluciones de la expresión cuadrática \\( 5x^2 - 3x  - 1 =0 \\) es",
+      "type": "Multiple",
+      "options": [
+        "a. \\( -3/5 \\)",
+        "b. \\( 3/5 \\)",
+        "c. \\( 1/5 \\)",
+        "d. \\( -1/5 \\)"
+      ],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "Considere las siguientes afirmaciones acerca de la ecuación \\( x^2 + 3x - 7 = 0\\). (1) La suma de las soluciones de la ecuación es \\( -3 \\). (2) El producto de las soluciones de la ecuación \\( -7 \\). De las afirmaciones es correcto asegurar que",
+      "type": "Multiple",
+      "options": [
+        "a. (1) y (2) son verdaderas",
+        "b. (1) y (2) son falsas",
+        "c. (1) es falsa y (2) es verdadera",
+        "d. (1) es verdadera y (2) es falsa"
+      ],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "De la ecuación \\( x^2 - 3x + 5 = 0 \\) es correcto afirmar que",
+      "type": "Multiple",
+      "options": [
+        "a. tiene dos soluciones negativas",
+        "b. no tiene soluciones reales",
+        "c. tiene una solución negativa y una positiva",
+        "d. tiene dos soluciones positivas"
+      ],
       "correct_answer": "",
       "explanation": ""
     }

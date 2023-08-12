@@ -1,8 +1,11 @@
 import { Grid, ThemeProvider, createTheme } from "@mui/material";
 import NavigationComponent from "../components/Navigation.component";
 import PageView from "./page.view";
+import { purple } from "@mui/material/colors";
 
-const darkTheme = createTheme({ palette: { mode: "light" } });
+const darkTheme = createTheme({
+  palette: { mode: "light", primary: { main: purple[600] } },
+});
 
 const MainView = () => {
   return (

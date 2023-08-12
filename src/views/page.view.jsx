@@ -75,6 +75,14 @@ function PageView() {
             para familiarizarse con el examén y el tipo de preguntas de la
             prueba.
           </Typography>
+          {/* TODO: uncomment when copy button works fully */}
+          {/* <Typography variant="body1">
+            Cada pregunta tiene un boton de copiado, el cual te permite copiar
+            la pregunta para usarla en alguna prueba que estes construyendo o
+            incluso llevarla a algún modelo de inteligencia artificial como
+            ChatGPT para hacerte una idea de como resolverla o revisar
+            explicaciones alternativas.
+          </Typography> */}
         </>
       ) : (
         <ExamComponent

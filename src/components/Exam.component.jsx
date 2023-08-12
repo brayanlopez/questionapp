@@ -2,16 +2,15 @@ import { useEffect, useState } from "react";
 import { Box, Container, IconButton, Typography } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import QuestionComponent from "./Question.component";
+import { deleteMathJaxNotation } from "../utils/utils";
 
 const ExamComponent = ({ questions, onClickBackButton }) => {
   const [tooltipMessage, setTooltipMessage] = useState("copiar pregunta");
 
   const onCopy = (question) => {
-    navigator.clipboard.writeText(
-      `${question.statement} \n ${question.options.map(
-        (option) => `${option} \n`
-      )}`
-    );
+    let textToCopy = `${question.statement} \n`;
+    question.options.forEach((option) => (textToCopy += `${option}\n`));
+    navigator.clipboard.writeText(deleteMathJaxNotation(textToCopy));
     setTooltipMessage("pregunta copiada");
   };
 

@@ -105,6 +105,104 @@
       ],
       "correct_answer": "",
       "explanation": ""
+    },
+    {
+      "statement": "La carga de una columna cilíndrica sobre una superficie plana varía directamente con la cuarta potencia de su diámetro e inversamente con el cuadrado de su longitud. Si el diámetro y la longitud se reducen a la mitad, entonces la carga",
+      "type": "Multiple",
+      "options": [
+        "a. se duplica",
+        "b. se reduce a la mitad.",
+        "c. se hace cuatro veces mayor.",
+        "d. se reduce a la cuarta parte."
+      ],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "Un comerciante rebaja en un 20% el precio x de un cierto producto y, posteriormente, incrementa el nuevo precio en un 20%. Si r denota el monto de la rebaja y a denota el monto del aumento, entonces ",
+      "type": "Multiple",
+      "options": [
+        "a. \\(r<a \\)",
+        "b. \\(r>a \\)",
+        "c. \\(r=a \\)",
+        "d. \\(r=2a \\)"
+      ],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "Un entero positivo n se denomina un número perfecto si es igual a la suma de todos sus divisores propios, uno se cuenta como un divisor propio, pero número no. Si \\( p \\) y \\(2^p-1 \\) son primos, entonces un número perfecto es: ",
+      "type": "Multiple",
+      "options": [
+        "a. \\(2^p-1 \\)",
+        "b. \\(2^{p-1}(2^p-1) \\)",
+        "c. \\(2^{p-1}(2^p+1) \\)",
+        "d. \\(2^p \\)"
+      ],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "Si m y n son enteros impares, entonces es correcto afirmar que  \\( m^2+n^2 \\) siempre es",
+      "type": "Multiple",
+      "options": [
+        "a.  un cuadrado perfecto",
+        "b.  divisible por 4",
+        "c.  par",
+        "d.  impar"
+      ],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "Sean m y n números enteros que cumplen, \\( \\sqrt{2}<n<5 \\) y \\( n<m<\\sqrt{10} \\). Bajo estas condiciones m sólo puede ser igual a",
+      "type": "Multiple",
+      "options": ["a.  2", "b.  2 y 3 ", "c.  3 y 4 ", "d.  3 "],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "Los números 2, 2/3, 2/9, 2/27 son los cuatro primeros términos de una progresión geométrica. El n-ésimo término de esa progresión es ",
+      "type": "Multiple",
+      "options": [
+        "a. \\( (2/3)^{n-1} \\)",
+        "b. \\(2 (1/3)^n \\)",
+        "c. \\(2 (1/3)^{n-1} \\)",
+        "d. \\((2/3)^n  \\)"
+      ],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "Un niño que va a la escuela gasta 9600 en transporte. Para cubrir sus gastos, compra bolsas de 12 paquetes de papas a 8800. Si cada paquete se vende a 1000 por separado, ¿Cuántos paquetes tendría que vender para cubrir sus gastos diarios? ",
+      "type": "Multiple",
+      "options": ["a. 48", "b. 12", "c. 36", "d. 30"],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "El producto de las edades de las gemelas Marta y Teresa es 196. Dentro de cuantos años según la ley Colombiana serán mayores de edad.",
+      "type": "Multiple",
+      "options": [
+        "a. \\( 4 \\)",
+        "b. \\( 5 \\)",
+        "c. \\( 6 \\)",
+        "d. \\( 3 \\)"
+      ],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "Ordenar de menor a mayor los siguientes números: 1/2, 5/9, 12/25 y 0.53",
+      "type": "Multiple",
+      "options": [
+        "a. \\(12/25 < 0.53 < 1/2 < 5/9 \\)",
+        "b. \\(1/2 < 5/9 < 12/25 < 0.53 \\)",
+        "c. \\(1/2 < 12/25 < 5/9 < 0.53 \\)",
+        "d. \\(12/25 < 1/2 < 0.53 < 5/9 \\)"
+      ],
+      "correct_answer": "",
+      "explanation": ""
     }
   ]
 }

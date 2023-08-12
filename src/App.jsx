@@ -1,11 +1,11 @@
 import ErrorPage from "./views/ErrorPage";
-import PageView from "./views/page.view";
+import MainView from "./views/main.view";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 function App() {
   const router = createBrowserRouter([
-    { path: "/questionapp", element: <PageView /> },
+    { path: "/questionapp", element: <MainView /> },
     { path: "/", errorElement: <ErrorPage /> },
   ]);
 

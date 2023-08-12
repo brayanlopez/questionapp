@@ -1,36 +1,27 @@
-import { Grid, Paper } from "@mui/material";
+import { Grid, ThemeProvider, createTheme } from "@mui/material";
+import NavigationComponent from "../components/Navigation.component";
+import PageView from "./page.view";
+
+const darkTheme = createTheme({ palette: { mode: "light" } });
 
 const MainView = () => {
   return (
-    <Grid container spacing={1} justifyContent="center">
-      <Grid item lg={4} md={6} sm={12}>
-        <Paper
-          sx={{
-            height: 140,
-            backgroundColor: (theme) =>
-              theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-          }}
-        ></Paper>
+    <ThemeProvider theme={darkTheme}>
+      <Grid
+        className="main-container"
+        justifyContent="center"
+        sx={{
+          minHeight: "100vh",
+          width: "100vw",
+          margin: 0,
+          padding: "0",
+        }}
+      >
+        <NavigationComponent onClickBackButton={() => {}} />
+
+        <PageView />
       </Grid>
-      <Grid item lg={4} md={6} sm={12}>
-        <Paper
-          sx={{
-            height: 140,
-            backgroundColor: (theme) =>
-              theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-          }}
-        ></Paper>
-      </Grid>
-      <Grid item lg={4} md={6} sm={12}>
-        <Paper
-          sx={{
-            height: 140,
-            backgroundColor: (theme) =>
-              theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-          }}
-        ></Paper>
-      </Grid>
-    </Grid>
+    </ThemeProvider>
   );
 };
 

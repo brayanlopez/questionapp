@@ -2,59 +2,33 @@
   "title": "Operaciones entre polinomios",
   "questions": [
     {
-      "statement": "Es verdadero que",
+      "statement": "Los cuadrados de las expresiones \\(ab, a+b\\) y \\(a/b\\) son respectivamente",
       "type": "Multiple",
       "options": [
-        "a. 1/0 no está definido",
-        "b. 0/1 no está definido",
-        "c. 0/0 = 1",
-        "d. 1/0 = 0"
-      ],
-      "correct_answer": "a",
-      "explanation": ""
-    },
-    {
-      "statement": "Si x e y son números reales cualesquiera tal que \\(x < y\\), entonces es posible afirmar que",
-      "type": "Multiple",
-      "options": [
-        "a. \\(-x < -y\\)",
-        "b. \\(1/x < 1/y\\)",
-        "c. \\(x^2 < y^2\\)",
-        "d. \\(-y < -x\\)"
-      ],
-      "correct_answer": "d",
-      "explanation": ""
-    },
-    {
-      "statement": "Si x>0, y>0, x>y, \\(z \\ne 0\\), la desigualdad que no siempre es verdadera es",
-      "type": "Multiple",
-      "options": [
-        "a. \\(x+z > y+z\\)",
-        "b. \\(x-z > y-z\\)",
-        "c. \\(xz > yz\\)",
-        "d. \\(x/z^2 > y/z^2\\)"
+        "a. \\(a^2 b^2, a^2+b^2, a^2/b^2\\)",
+        "b. \\(ab^2, a^2+b^2, a^2/b^2\\)",
+        "c. \\(a^2 b^2, a^2+2ab+b^2, a^2/b\\)",
+        "d. \\(a^2 b^2, a^2+2ab+b^2, a^2/b^2\\)"
       ],
       "correct_answer": "",
       "explanation": ""
     },
     {
-      "statement": "",
+      "statement": "Al dividir el polínomio \\(3x^3 + bx^2 + 7x - 1 \\) por \\( x^2 -1 \\) se obtiene como cociente \\( 3x - 5 \\) y como residuo \\(10x-6 \\). El valor de b es",
       "type": "Multiple",
-      "options": ["a. \\( \\)", "b. \\( \\)", "c. \\( \\)", "d. \\( \\)"],
+      "options": ["a. \\(5\\)", "b. \\(10\\)", "c. \\(-10\\)", "d. \\(-5\\)"],
       "correct_answer": "",
       "explanation": ""
     },
     {
-      "statement": "",
+      "statement": "La expresión \\((5n-2)3n - (5n-2)(n-1) \\) es equivalente a:",
       "type": "Multiple",
-      "options": ["a. \\( \\)", "b. \\( \\)", "c. \\( \\)", "d. \\( \\)"],
-      "correct_answer": "",
-      "explanation": ""
-    },
-    {
-      "statement": "",
-      "type": "Multiple",
-      "options": ["a. \\( \\)", "b. \\( \\)", "c. \\( \\)", "d. \\( \\)"],
+      "options": [
+        "a. \\( 10n^2 - 13n + 2 \\)",
+        "b. \\( n-1 \\)",
+        "c. \\( 3n^2 - 3n \\)",
+        "d. \\( 10n^2 + n-2 \\)"
+      ],
       "correct_answer": "",
       "explanation": ""
     }

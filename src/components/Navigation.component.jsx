@@ -1,9 +1,28 @@
-import { Link } from "react-router-dom";
-import { AppBar, Box, Toolbar, Typography } from "@mui/material";
+import { Link, useNavigate } from "react-router-dom";
+import {
+  AppBar,
+  Box,
+  IconButton,
+  Menu,
+  MenuItem,
+  Toolbar,
+  Typography,
+} from "@mui/material";
 // import MenuIcon from "@mui/icons-material/Menu";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
+import HandymanIcon from "@mui/icons-material/Handyman";
+import ColorLensIcon from "@mui/icons-material/ColorLens";
+import HelpCenterIcon from "@mui/icons-material/HelpCenter";
 
 const NavigationComponent = ({ onClickBackButton }) => {
+  const navigate = useNavigate();
+
+  const settings = [
+    { icon: <DarkModeIcon />, text: "Modo nocturno" },
+    { icon: <ColorLensIcon />, text: "Seleccionar paleta" },
+    { icon: <HelpCenterIcon />, text: "Ayuda" },
+  ];
+
   return (
     <>
       <AppBar position="static">
@@ -31,8 +50,36 @@ const NavigationComponent = ({ onClickBackButton }) => {
             </Link>
           </Typography>
           <Box sx={{ flexGrow: 1 }} />
-          <DarkModeIcon />
+          <IconButton
+            sx={{ color: "white", p: 0 }}
+            onClick={() => navigate("/questionapp/info")}
+          >
+            <HandymanIcon />
+          </IconButton>
         </Toolbar>
+        <Menu
+          sx={{ mt: "45px" }}
+          id="menu-appbar"
+          // anchorEl={anchorElUser}
+          anchorOrigin={{
+            vertical: "top",
+            horizontal: "right",
+          }}
+          keepMounted
+          transformOrigin={{
+            vertical: "top",
+            horizontal: "right",
+          }}
+          open={false}
+          // onClose={handleCloseUserMenu}
+        >
+          {settings.map((setting, index) => (
+            <MenuItem key={index}>
+              {setting.icon}
+              <Typography>{setting.text}</Typography>
+            </MenuItem>
+          ))}
+        </Menu>
       </AppBar>
     </>
   );

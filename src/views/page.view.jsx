@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, Container, Link, Typography } from "@mui/material";
+import { Button, Container, Typography } from "@mui/material";
 import FunctionsIcon from "@mui/icons-material/Functions";
 
 import ExamComponent from "../components/Exam.component";
@@ -22,8 +22,7 @@ function PageView() {
     questions5,
   ];
 
-  const algebra = [topic1];
-  // const mathList = [...arithmetic];
+  const algebra = [topic1, topic2];
   const mathList = [...arithmetic, ...algebra];
 
   const [indexSelected, setindexSelected] = useState(0);
@@ -61,28 +60,6 @@ function PageView() {
               {item.title}
             </Button>
           ))}
-          <Typography variant="h3">Información importante</Typography>
-          <Typography variant="body1" align="justify">
-            La Universidad Nacional de Colombia Sede Manizales desarrolló una{" "}
-            <Link
-              href="https://www.uninscripciones.unal.edu.co/dipa/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Demostración Interactiva de la Prueba de Admisión
-            </Link>{" "}
-            una aplicación conocida comunmente como pruebas DIPA. Es muy útil
-            para familiarizarse con el examén y el tipo de preguntas de la
-            prueba.
-          </Typography>
-          {/* TODO: uncomment when copy button works fully */}
-          {/* <Typography variant="body1">
-            Cada pregunta tiene un boton de copiado, el cual te permite copiar
-            la pregunta para usarla en alguna prueba que estes construyendo o
-            incluso llevarla a algún modelo de inteligencia artificial como
-            ChatGPT para hacerte una idea de como resolverla o revisar
-            explicaciones alternativas.
-          </Typography> */}
         </>
       ) : (
         <ExamComponent

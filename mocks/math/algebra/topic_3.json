@@ -2,30 +2,45 @@
   "title": "Sistemas de ecuaciones",
   "questions": [
     {
-      "statement": "",
+      "statement": "El sistema de ecuaciones \\[ 2x - 3y = 5\\] \\[ 3x - 2y = 7\\]",
       "type": "Multiple",
-      "options": ["a. \\( \\)", "b. \\( \\)", "c. \\( \\)", "d. \\( \\)"],
+      "options": [
+        "a. no tiene solución",
+        "b. tiene solución única",
+        "c. tiene infinitas soluciones",
+        "d. tiene exactamente dos soluciones"
+      ],
       "correct_answer": "",
       "explanation": ""
     },
     {
-      "statement": "",
+      "statement": "En el siguiente sistema de ecuaciones, el valor de k para que este no tenga solución es \\[2x + 5y = 3 \\] \\[kx + 10y = 1\\]",
       "type": "Multiple",
-      "options": ["a. \\( \\)", "b. \\( \\)", "c. \\( \\)", "d. \\( \\)"],
+      "options": ["a. \\(4 \\)", "b. \\(-4 \\)", "c. \\(2 \\)", "d. \\(-2 \\)"],
       "correct_answer": "",
       "explanation": ""
     },
     {
-      "statement": "",
+      "statement": "Del sistema de ecuaciones \\[ 2x - 5y = 1\\] \\[ 2x - 3y = 0\\]",
       "type": "Multiple",
-      "options": ["a. \\( \\)", "b. \\( \\)", "c. \\( \\)", "d. \\( \\)"],
+      "options": [
+        "a. no tiene solución",
+        "b. tiene solución única",
+        "c. tiene infinitas soluciones",
+        "d. tiene exactamente dos soluciones"
+      ],
       "correct_answer": "",
       "explanation": ""
     },
     {
-      "statement": "",
+      "statement": "Si a y b son números reales que satisfacen el sistema de ecuaciones \\[ a - b = 5\\] \\[ -a + 2b = 1\\]",
       "type": "Multiple",
-      "options": ["a. \\( \\)", "b. \\( \\)", "c. \\( \\)", "d. \\( \\)"],
+      "options": [
+        "a. a es positivo y b es negativo",
+        "b. a y b son positivos",
+        "c. a y b son negativos",
+        "d. a es negativo y b es positivo"
+      ],
       "correct_answer": "",
       "explanation": ""
     }

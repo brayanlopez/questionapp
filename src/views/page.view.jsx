@@ -12,6 +12,7 @@ import questions5 from "../../mocks/math/arithmetic/questions_5.json";
 
 import topic1 from "../../mocks/math/algebra/topic_1.json";
 import topic2 from "../../mocks/math/algebra/topic_2.json";
+import topic3 from "../../mocks/math/algebra/topic_3.json";
 
 function PageView() {
   const arithmetic = [
@@ -22,7 +23,7 @@ function PageView() {
     questions5,
   ];
 
-  const algebra = [topic1, topic2];
+  const algebra = [topic1, topic2, topic3];
   const mathList = [...arithmetic, ...algebra];
 
   const [indexSelected, setindexSelected] = useState(0);
@@ -33,9 +34,7 @@ function PageView() {
     setindexSelected(index);
   };
 
-  const onClickBackButton = () => {
-    setisItemSelected(false);
-  };
+  const onClickBackButton = () => setisItemSelected(false);
 
   return (
     <Container>

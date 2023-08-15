@@ -2,9 +2,64 @@
   "title": "Mix de ecuaciones",
   "questions": [
     {
+      "statement": "Si \\(1/f = 1/p + 1/q \\) entonces \\( p + q \\) es igual a",
+      "type": "Multiple",
+      "options": [
+        "a. \\( f\\)",
+        "b. \\(pq/f \\)",
+        "c. \\(f/pq \\)",
+        "d. \\(2f \\)"
+      ],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "En el conjunto de los números reales, la ecuación \\(3 + \\sqrt{3x+1} = x \\)",
+      "type": "Multiple",
+      "options": [
+        "a. tiene dos soluciones",
+        "b. tiene una única solución",
+        "c. no tiene solución",
+        "d. tiene tres soluciones"
+      ],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "Para resolver la ecuación \\( x-a = 1/a-1/x\\) donde \\( a\\ne 0 \\), se siguieron estos pasos ",
+      "type": "Multiple",
+      "options": ["a. \\( \\)", "b. \\( \\)", "c. \\( \\)", "d. \\( \\)"],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
       "statement": "",
       "type": "Multiple",
       "options": ["a. \\( \\)", "b. \\( \\)", "c. \\( \\)", "d. \\( \\)"],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "De la ecuación \\(1/(a+1) = a/(a-1) = 0\\) es correcto afirmar que",
+      "type": "Multiple",
+      "options": [
+        "a. todo número real diferente de 1 y -1 es solución",
+        "b. no tiene soluciones reales",
+        "c. tiene solución única",
+        "d. tiene exactamente dos soluciones reales"
+      ],
+      "correct_answer": "",
+      "explanation": ""
+    },
+    {
+      "statement": "Con respecto a la ecuación \\( 3x+2 = 7x + 5 -4x\\) es correcto afirmar que en el conjunto de los números reales",
+      "type": "Multiple",
+      "options": [
+        "a. tiene una solución",
+        "b. tiene solamente dos soluciones",
+        "c. no tiene solución",
+        "d. tiene infinitas soluciones"
+      ],
       "correct_answer": "",
       "explanation": ""
     },

@@ -54,14 +54,14 @@
       "type": "Multiple",
       "options": ["a. 28", "b. 496", "c. 2026", "d. 8128"],
       "correct_answer": "c",
-      "explanation": ""
+      "explanation": "Los divisores del número 2026 son 1,2,1013,2026. Al sumarlos, sin contar el mismo número 2026, se obtiene 1016 el cuál es diferente a 2026."
     },
     {
       "statement": "Un entero positivo n se denomina un número perfecto si es igual a la suma de todos sus divisores propios, el número 1 se cuenta como un divisor propio, pero número no. Un ejemplo de número perfecto es: ",
       "type": "Multiple",
       "options": ["a. 3", "b. 4", "c. 5", "d. 6"],
-      "correct_answer": "a",
-      "explanation": "Los divisores de 3 son 1 y 2, que sumados dan igual 3, por tanto 3 es un número perfecto."
+      "correct_answer": "d",
+      "explanation": "Los divisores de 6 son: 1, 2, 3. Sumados dan 6, por tanto 6 es un número perfecto."
     },
     {
       "statement": "Si x es un número real, se define el valor absoluto de x de la siguiente manera: \\( |x| = x \\) si \\( x \\geq 0 \\) y \\( |x| = -x \\) si \\( x<0\\). De acuerdo con la definición anterior, es verdadero que ",
@@ -79,8 +79,8 @@
       "statement": "Un fabricante de zapatos puede vender todos los pares de zapatos que produce a un precio de 60 mil cada par. El fabricante tiene costos fijos mensuales de 24 millones. Si el cuero e insumos necesarios para producir cada par le cuesta 20 mil, el menor número de pares que debe producir y vender al mes para obtener utilidades es: ",
       "type": "Multiple",
       "options": ["a. 300", "b. 600", "c. 1200", "d. 4000"],
-      "correct_answer": "",
-      "explanation": ""
+      "correct_answer": "b",
+      "explanation": "La ganancia de vender cada par de zapato es igual restar el costo de venta al costo de fábricación, posteriormente se multiplica esto por la cantidad de zapatos que se debe vender. Por tanto podemos plantear la siguiente ecuación \\( (60000-20000)x = 24000000\\), que al resolverla da 600."
     },
     {
       "statement": "Si x es cualquier real mayor que 1, al ordenar de menor a mayor los números 1, x, \\( \\sqrt{x} \\), \\( 1/x\\), \\(1/\\sqrt{x} \\) se obtiene",
@@ -91,7 +91,7 @@
         "c. \\( 1/\\sqrt{x}, 1/x, \\sqrt{x}, 1, x \\)",
         "d. \\( 1/\\sqrt{x}, 1/x, 1, \\sqrt{x}, x \\)"
       ],
-      "correct_answer": "",
+      "correct_answer": "a",
       "explanation": ""
     },
     {
@@ -189,8 +189,8 @@
         "c. \\( 6 \\)",
         "d. \\( 3 \\)"
       ],
-      "correct_answer": "",
-      "explanation": ""
+      "correct_answer": "a",
+      "explanation": "Se puede descomponer 196 en sus factores primos, \\(2^2, 7^2\\). Teniendo en cuenta que ambas hermanas son gemelas deben tener la misma edad, por tanto al multiplicar los números 7 y 2 obtenemos que la edad de una es 14, al realizar nuevamente la multiplicación con los números restantes obtenemos la edad de la otra. En la legilación colombiana una persona es mayor de a los 18 años, por tanto las gemelas serán mayores de edad en 4 años."
     },
     {
       "statement": "Ordenar de menor a mayor los siguientes números: 1/2, 5/9, 12/25 y 0.53",

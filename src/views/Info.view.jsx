@@ -15,7 +15,7 @@ const InfoView = () => {
   const questions = [
     {
       question:
-        "Quiero copiar las preguntas, pero no me deja copiar algunos simbolos matemáticos",
+        "Quiero copiar las preguntas, pero no me deja copiar algunos simbolos matemáticos.",
       answer:
         "Cada pregunta tiene un boton de copiado, el cual te permite copiar la pregunta para usarla en alguna prueba que estes construyendo o incluso llevarla a algún modelo de inteligencia artificial como ChatGPT para hacerte una idea de como resolverla o revisar explicaciones alternativas.",
     },
@@ -23,6 +23,11 @@ const InfoView = () => {
       question: "Quiero ponerme en contacto con ustedes",
       answer:
         " Si tienes alguna duda, encontraste un error en alguna pregunta o tienes alguna sugerencia no dudes en contactarnos en otro.canal.contacto@gmail.com ",
+    },
+    {
+      question: "¿Tienen algún convenio con alguna universidad?",
+      answer:
+        "No, actualmente no tenemos ningún convenio o patrocinio con ninguna universidad o institución",
     },
     {
       question:
@@ -41,11 +46,6 @@ const InfoView = () => {
           familiarizarse con el examén y el tipo de preguntas de la prueba.
         </>
       ),
-    },
-    {
-      question: "¿Tienen algún convenio con la UNAL?",
-      answer:
-        "No, actualmente no tenemos ningún convenio o patrocinio con ninguna universidad",
     },
   ];
 

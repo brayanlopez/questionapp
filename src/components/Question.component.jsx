@@ -18,12 +18,21 @@ const QuestionComponent = ({
           theme.palette.mode === "dark" ? "#1A2027" : "#fff",
       }}
     >
-      <Box flexWrap={5} />
-      {/* <Tooltip placement="top" title={tooltipMessage} onClose={onCloseTooltip}>
-        <IconButton aria-label="copy" onClick={onCopy} sx={{ border: "none" }}>
-          <ContentPasteIcon />
-        </IconButton>
-      </Tooltip> */}
+      <Box display={"flex"} flexDirection={"row-reverse"}>
+        <Tooltip
+          placement="top"
+          title={tooltipMessage}
+          onClose={onCloseTooltip}
+        >
+          <IconButton
+            aria-label="copy"
+            onClick={onCopy}
+            sx={{ border: "none" }}
+          >
+            <ContentPasteIcon />
+          </IconButton>
+        </Tooltip>
+      </Box>
       <div style={{ margin: "15px 0", width: "100%" }}>
         {index}. {question.statement}
         {question.options.map((option, i) => (

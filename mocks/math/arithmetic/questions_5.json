@@ -46,7 +46,7 @@
         "c. Solamente II",
         "d. Solamente IV"
       ],
-      "correct_answer": "d",
+      "correct_answer": "a",
       "explanation": ""
     },
     {
@@ -62,18 +62,6 @@
       "options": ["a. 3", "b. 4", "c. 5", "d. 6"],
       "correct_answer": "d",
       "explanation": "Los divisores de 6 son: 1, 2, 3. Sumados dan 6, por tanto 6 es un número perfecto."
-    },
-    {
-      "statement": "Si x es un número real, se define el valor absoluto de x de la siguiente manera: \\( |x| = x \\) si \\( x \\geq 0 \\) y \\( |x| = -x \\) si \\( x<0\\). De acuerdo con la definición anterior, es verdadero que ",
-      "type": "Multiple",
-      "options": [
-        "a. si \\( x \\geq -3 \\), \\( |x + 3| = x+3\\)",
-        "b. si \\( x<0 \\), \\( |x-2| = x-2\\)",
-        "c. si \\( x \\in \\mathbb{R} \\), \\( |-x|=x\\)",
-        "d. si \\( x \\in \\mathbb{R} \\), \\( |x-5|=5-x\\)"
-      ],
-      "correct_answer": "",
-      "explanation": ""
     },
     {
       "statement": "Un fabricante de zapatos puede vender todos los pares de zapatos que produce a un precio de 60 mil cada par. El fabricante tiene costos fijos mensuales de 24 millones. Si el cuero e insumos necesarios para producir cada par le cuesta 20 mil, el menor número de pares que debe producir y vender al mes para obtener utilidades es: ",
@@ -95,18 +83,6 @@
       "explanation": ""
     },
     {
-      "statement": "Si m y n representan números enteros cualesquiera, acerca de \\( m^2-n^2 \\) es correcto afirmar que",
-      "type": "Multiple",
-      "options": [
-        "a. es el cuadrado de un número entero.",
-        "b. es igual a 0 solo si \\( m = n\\).",
-        "c. es par solo si m y n son pares.",
-        "d. es impar si m es par y n es impar."
-      ],
-      "correct_answer": "",
-      "explanation": ""
-    },
-    {
       "statement": "La carga de una columna cilíndrica sobre una superficie plana varía directamente con la cuarta potencia de su diámetro e inversamente con el cuadrado de su longitud. Si el diámetro y la longitud se reducen a la mitad, entonces la carga",
       "type": "Multiple",
       "options": [
@@ -115,19 +91,7 @@
         "c. se hace cuatro veces mayor.",
         "d. se reduce a la cuarta parte."
       ],
-      "correct_answer": "",
-      "explanation": ""
-    },
-    {
-      "statement": "Un comerciante rebaja en un 20% el precio x de un cierto producto y, posteriormente, incrementa el nuevo precio en un 20%. Si r denota el monto de la rebaja y a denota el monto del aumento, entonces ",
-      "type": "Multiple",
-      "options": [
-        "a. \\(r<a \\)",
-        "b. \\(r>a \\)",
-        "c. \\(r=a \\)",
-        "d. \\(r=2a \\)"
-      ],
-      "correct_answer": "",
+      "correct_answer": "d",
       "explanation": ""
     },
     {

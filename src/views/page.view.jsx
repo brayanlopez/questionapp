@@ -4,7 +4,7 @@ import FunctionsIcon from "@mui/icons-material/Functions";
 
 import ExamComponent from "../components/Exam.component";
 
-import questions from "../../mocks/math/arithmetic/questions.json";
+import questions1 from "../../mocks/math/arithmetic/questions_1.json";
 import questions2 from "../../mocks/math/arithmetic/questions_2.json";
 import questions3 from "../../mocks/math/arithmetic/questions_3.json";
 import questions4 from "../../mocks/math/arithmetic/questions_4.json";
@@ -13,16 +13,19 @@ import questions5 from "../../mocks/math/arithmetic/questions_5.json";
 import topic1 from "../../mocks/math/algebra/topic_1.json";
 import topic2 from "../../mocks/math/algebra/topic_2.json";
 import topic3 from "../../mocks/math/algebra/topic_3.json";
+import topic4 from "../../mocks/math/algebra/topic_4.json";
+import topic5 from "../../mocks/math/algebra/topic_5.json";
 
 function PageView() {
   const arithmetic = [
-    questions,
+    questions1,
     questions2,
     questions3,
     questions4,
     questions5,
   ];
 
+  // const algebra = [topic1, topic2, topic3,topic4, topic5];
   const algebra = [topic1, topic2, topic3];
   const mathList = [...arithmetic, ...algebra];
 

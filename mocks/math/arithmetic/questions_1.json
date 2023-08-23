@@ -18,7 +18,7 @@
       "type": "Multiple",
       "options": ["a. 28", "b. 32", "c. 38", "d. 42"],
       "correct_answer": "b",
-      "explanation": ""
+      "explanation": "El grupo de estudiantes fue dividido en fracciones, por lo tanto la suma total de estas fracciones debe ser igual a 1. Incluyendo la fracción correspondiente a los dos estudiantes que no están presentes, llamemos esta fracción como x, de esta forma \\(1/4 + 3/8 + 5/16 + x = 1\\). Al despejar la ecuación, \\( x = 1/16 \\), o sea los dos estudiantes que no asistieron 1 fracción de 16 totales. Finalmente podemos multiplicar 2 por 16 para obtener la totalidad de estudiantes del curso."
     },
     {
       "statement": "Los 2/5 de estudiantes de un curso son mujeres. Es correcto afirmar que en el curso hay",
@@ -30,7 +30,7 @@
         "d. Dos hombres y cinco mujeres"
       ],
       "correct_answer": "a",
-      "explanation": ""
+      "explanation": "Si llevamos la fracción 2/5 a porcentaje, se observa que el 40% del curso son mujeres. Por tanto, el 60% deben ser hombres. Facilmente se deduce que hay más hombres que mujeres en el curso."
     },
     {
       "statement": "Considere las siguientes propociones relacionadas con los númeroes reales, dado a=-17/12 y b=15/12. \n (1) Entre a y b hay exactamente 3 números enteros. \n (2) En la recta númerica la coordenada el punto medio entre a y b es -1/12",

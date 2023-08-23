@@ -13,6 +13,7 @@ import DarkModeIcon from "@mui/icons-material/DarkMode";
 import HandymanIcon from "@mui/icons-material/Handyman";
 import ColorLensIcon from "@mui/icons-material/ColorLens";
 import HelpCenterIcon from "@mui/icons-material/HelpCenter";
+import { MAIN_ROUTE, ROUTE_INfORMATION } from "../utils/routes";
 
 const NavigationComponent = ({ onClickBackButton }) => {
   const navigate = useNavigate();
@@ -38,7 +39,7 @@ const NavigationComponent = ({ onClickBackButton }) => {
     </IconButton> */}
           <Typography variant="h6" color="inherit" component="div">
             <Link
-              to={`/questionapp/`}
+              to={MAIN_ROUTE}
               style={{
                 color: "white",
                 fontWeight: "bold",
@@ -52,7 +53,7 @@ const NavigationComponent = ({ onClickBackButton }) => {
           <Box sx={{ flexGrow: 1 }} />
           <IconButton
             sx={{ color: "white", p: 0 }}
-            onClick={() => navigate("/questionapp/info")}
+            onClick={() => navigate(ROUTE_INfORMATION)}
           >
             <HandymanIcon />
           </IconButton>

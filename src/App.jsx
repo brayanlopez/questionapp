@@ -1,25 +1,32 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { ThemeProvider, createTheme } from "@mui/material";
+import { Paper, ThemeProvider, createTheme } from "@mui/material";
 import { purple } from "@mui/material/colors";
 
 import ErrorPage from "./views/ErrorPage";
 import MainView from "./views/main.view";
 import InfoView from "./views/Info.view";
+import { MAIN_ROUTE, ROUTE_INfORMATION } from "./utils/routes";
+
+const lightTheme = createTheme({
+  palette: { mode: "light", primary: { main: purple[600] } },
+});
 
 const darkTheme = createTheme({
-  palette: { mode: "light", primary: { main: purple[600] } },
+  palette: { mode: "dark" },
 });
 
 function App() {
   const router = createBrowserRouter([
-    { path: "/questionapp", element: <MainView /> },
-    { path: "/questionapp/info", element: <InfoView /> },
+    { path: MAIN_ROUTE, element: <MainView /> },
+    { path: ROUTE_INfORMATION, element: <InfoView /> },
     { path: "/", errorElement: <ErrorPage /> },
   ]);
 
   return (
-    <ThemeProvider theme={darkTheme}>
-      <RouterProvider router={router} />
+    <ThemeProvider theme={lightTheme}>
+      <Paper>
+        <RouterProvider router={router} />
+      </Paper>
     </ThemeProvider>
   );
 }

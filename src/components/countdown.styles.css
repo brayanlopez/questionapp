@@ -1,0 +1,28 @@
+.countdown-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+  padding: 0.5rem;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0.75rem 0 0.75rem;
+  line-height: 1.25rem;
+}
+
+.countdown > p {
+  margin: 0;
+}
+
+.countdown > span {
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  line-height: 1rem;
+}

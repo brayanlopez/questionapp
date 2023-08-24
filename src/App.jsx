@@ -5,7 +5,12 @@ import { purple } from "@mui/material/colors";
 import ErrorPage from "./views/ErrorPage";
 import MainView from "./views/main.view";
 import InfoView from "./views/Info.view";
-import { MAIN_ROUTE, ROUTE_INfORMATION } from "./utils/routes";
+import {
+  MAIN_ROUTE,
+  QUESTIONARY_ROUTE,
+  ROUTE_INfORMATION,
+} from "./utils/routes";
+import QuestionaryView from "./views/questionary.view";
 
 const lightTheme = createTheme({
   palette: { mode: "light", primary: { main: purple[600] } },
@@ -19,6 +24,7 @@ function App() {
   const router = createBrowserRouter([
     { path: MAIN_ROUTE, element: <MainView /> },
     { path: ROUTE_INfORMATION, element: <InfoView /> },
+    // { path: QUESTIONARY_ROUTE, element: <QuestionaryView /> },
     { path: "/", errorElement: <ErrorPage /> },
   ]);
 

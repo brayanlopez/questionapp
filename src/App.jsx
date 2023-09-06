@@ -16,9 +16,7 @@ const lightTheme = createTheme({
   palette: { mode: "light", primary: { main: purple[600] } },
 });
 
-const darkTheme = createTheme({
-  palette: { mode: "dark" },
-});
+const darkTheme = createTheme({ palette: { mode: "dark" } });
 
 function App() {
   const router = createBrowserRouter([

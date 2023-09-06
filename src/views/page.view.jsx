@@ -25,8 +25,8 @@ function PageView() {
     questions5,
   ];
 
-  // const algebra = [topic1, topic2, topic3,topic4, topic5];
-  const algebra = [topic1, topic2, topic3];
+  // const algebra = [topic1, topic2, topic3, topic4, topic5];
+  const algebra = [topic1, topic2, topic3, topic4];
   const mathList = [...arithmetic, ...algebra];
 
   const [indexSelected, setindexSelected] = useState(0);

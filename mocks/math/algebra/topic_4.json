@@ -6,9 +6,9 @@
       "type": "Multiple",
       "options": [
         "a. \\( f\\)",
-        "b. \\(pq/f \\)",
-        "c. \\(f/pq \\)",
-        "d. \\(2f \\)"
+        "b. \\( pq/f \\)",
+        "c. \\( f/pq \\)",
+        "d. \\( 2f \\)"
       ],
       "correct_answer": "",
       "explanation": ""
@@ -26,16 +26,26 @@
       "explanation": ""
     },
     {
-      "statement": "Para resolver la ecuación \\( x-a = 1/a-1/x\\) donde \\( a\\ne 0 \\), se siguieron estos pasos ",
+      "statement": "Para resolver la ecuación \\( x-a = 1/a-1/x\\) donde \\( a\\ne 0 \\), se siguieron estos pasos \\[ \\begin{align} x-a &= 1/a - 1/x \\\\ x-a &= \\frac{x-a}{ax} \\\\ ax(x-a) &= x-a \\\\ ax &= 1 \\\\ x &= 1/a  \\end{align} \\]",
       "type": "Multiple",
-      "options": ["a. \\( \\)", "b. \\( \\)", "c. \\( \\)", "d. \\( \\)"],
+      "options": [
+        "a. todas las soluciones",
+        "b. sólo las soluciones positivas",
+        "c. sólo las soluciones negativas",
+        "d. sólo las soluciones diferentes de a"
+      ],
       "correct_answer": "",
       "explanation": ""
     },
     {
-      "statement": "",
+      "statement": "Considere las siguientes proposiciones relacionadas con soluciones de ecuaciones: (1) La ecuación \\( \\frac{1+2x}{1+x} = \\frac{x}{1+x}\\) no tiene solución. (2) La ecuación \\( \\sqrt{x^2-9}=4 \\) tiene exactamente dos soluciones reales.",
       "type": "Multiple",
-      "options": ["a. \\( \\)", "b. \\( \\)", "c. \\( \\)", "d. \\( \\)"],
+      "options": [
+        "a. (1) y (2) son verdaderas",
+        "b. (1) y (2) son falsas",
+        "c. (1) es falsa y (2) es verdadera",
+        "d. (1) es verdadera y (2) es falsa"
+      ],
       "correct_answer": "",
       "explanation": ""
     },
@@ -52,7 +62,7 @@
       "explanation": ""
     },
     {
-      "statement": "Con respecto a la ecuación \\( 3x+2 = 7x + 5 -4x\\) es correcto afirmar que en el conjunto de los números reales",
+      "statement": "Con respecto a la ecuación \\( 3x + 2 = 7x + 5 -4x\\) es correcto afirmar que en el conjunto de los números reales",
       "type": "Multiple",
       "options": [
         "a. tiene una solución",
@@ -64,23 +74,14 @@
       "explanation": ""
     },
     {
-      "statement": "",
+      "statement": "Cuál de las siguientes ecuaciones no es equivalente a la ecuación \\( 3(x-1) - 9 = 0 \\)",
       "type": "Multiple",
-      "options": ["a. \\( \\)", "b. \\( \\)", "c. \\( \\)", "d. \\( \\)"],
-      "correct_answer": "",
-      "explanation": ""
-    },
-    {
-      "statement": "",
-      "type": "Multiple",
-      "options": ["a. \\( \\)", "b. \\( \\)", "c. \\( \\)", "d. \\( \\)"],
-      "correct_answer": "",
-      "explanation": ""
-    },
-    {
-      "statement": "",
-      "type": "Multiple",
-      "options": ["a. \\( \\)", "b. \\( \\)", "c. \\( \\)", "d. \\( \\)"],
+      "options": [
+        "a. \\( 2x - 1 = 7 \\)",
+        "b. \\( 5/2x = 10 \\)",
+        "c. \\( 3^x = 81 \\)",
+        "d. \\( x^2 = 16 \\)"
+      ],
       "correct_answer": "",
       "explanation": ""
     }

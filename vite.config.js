@@ -3,7 +3,4 @@ import react from "@vitejs/plugin-react";
 import { MAIN_ROUTE } from "./src/utils/routes";
 
 // https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [react()],
-  base: MAIN_ROUTE,
-});
+export default defineConfig({ base: MAIN_ROUTE, plugins: [react()] });

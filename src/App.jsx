@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Paper, ThemeProvider, createTheme } from "@mui/material";
 import { purple } from "@mui/material/colors";
 
-import ErrorPage from "./views/ErrorPage";
+import ErrorPage from "./views/ErrorPage/ErrorPage";
 import MainView from "./views/main.view";
 import InfoView from "./views/Info.view";
 import {

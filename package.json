@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "format": "prettier -c .",
-    "format:fix": "prettier -c ."
+    "format:fix": "prettier -w ."
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
-import "./countdown.styles.css";
 import { useCountdown } from "../utils/useCountdown";
+import "./countdown.styles.css";
 
 const Countdown = () => {
   const THREE_DAYS_IN_MS = 60 * 60 * 1000;

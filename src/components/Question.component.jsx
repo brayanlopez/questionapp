@@ -1,5 +1,5 @@
-import { Box, IconButton, Paper, Tooltip } from "@mui/material";
 import ContentPasteIcon from "@mui/icons-material/ContentPaste";
+import { Box, IconButton, Paper, Tooltip } from "@mui/material";
 
 const QuestionComponent = ({
   question: { statement, options, correct_answer, explanation },
@@ -38,7 +38,7 @@ const QuestionComponent = ({
         {options.map((option, i) => (
           <p key={i}>{option}</p>
         ))}
-        {correct_answer && explanation && (
+        {(correct_answer || explanation) && (
           <details>
             <summary>Clic para ver la respuesta</summary>
             {correct_answer && <p>Respuesta correcta: {correct_answer}</p>}

@@ -1,8 +1,8 @@
+import React from "react";
 import { useNavigate, useRouteError } from "react-router-dom";
+import { Button } from "@mui/material";
 
 import "./ErrorPage.css";
-import { Button } from "@mui/material";
-import { MAIN_ROUTE } from "../../utils/routes";
 
 export default function ErrorPage() {
   const navigate = useNavigate();
@@ -11,11 +11,11 @@ export default function ErrorPage() {
 
   return (
     <>
-      <div class="number">404</div>
-      <div class="text">
+      <div className="number">404</div>
+      <div className="text">
         <span>Ooops...</span>
         <p>page not found</p>
-        <Button variant="contained" onClick={() => navigate(MAIN_ROUTE)}>
+        <Button variant="contained" onClick={() => navigate("/")}>
           Return to the main page
         </Button>
       </div>

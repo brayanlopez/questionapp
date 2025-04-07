@@ -16,9 +16,9 @@ import HelpCenterIcon from "@mui/icons-material/HelpCenter";
 
 export const menuItems = [
   { name: "Inicio", icon: <HomeIcon />, path: "/" },
-  { name: "Matemáticas", icon: <CalculateIcon />, path: TOPIC_ROUTES.MATH },
+  // { name: "Matemáticas", icon: <CalculateIcon />, path: TOPIC_ROUTES.MATH },
   { name: "Preguntas UNAL", icon: <EditNoteIcon />, path: TOPIC_ROUTES.UNAL },
-  { name: "Varios", icon: <HomeRepairServiceIcon />, path: TOPIC_ROUTES.UNAL },
+  // { name: "Varios", icon: <HomeRepairServiceIcon />, path: TOPIC_ROUTES.UNAL },
 ];
 
 export const settings = [

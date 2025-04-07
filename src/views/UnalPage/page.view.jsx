@@ -2,19 +2,19 @@ import React, { useState } from "react";
 import { Button, Container, Typography } from "@mui/material";
 import FunctionsIcon from "@mui/icons-material/Functions";
 
-import ExamComponent from "../components/Exam.component";
+import ExamComponent from "../../components/Exam.component";
 
-import questions1 from "../../mocks/math/arithmetic/questions_1.json";
-import questions2 from "../../mocks/math/arithmetic/questions_2.json";
-import questions3 from "../../mocks/math/arithmetic/questions_3.json";
-import questions4 from "../../mocks/math/arithmetic/questions_4.json";
-import questions5 from "../../mocks/math/arithmetic/questions_5.json";
+import questions1 from "../../../mocks/math/arithmetic/questions_1.json";
+import questions2 from "../../../mocks/math/arithmetic/questions_2.json";
+import questions3 from "../../../mocks/math/arithmetic/questions_3.json";
+import questions4 from "../../../mocks/math/arithmetic/questions_4.json";
+import questions5 from "../../../mocks/math/arithmetic/questions_5.json";
 
-import topic1 from "../../mocks/math/algebra/topic_1.json";
-import topic2 from "../../mocks/math/algebra/topic_2.json";
-import topic3 from "../../mocks/math/algebra/topic_3.json";
-import topic4 from "../../mocks/math/algebra/topic_4.json";
-import topic5 from "../../mocks/math/algebra/topic_5.json";
+import topic1 from "../../../mocks/math/algebra/topic_1.json";
+import topic2 from "../../../mocks/math/algebra/topic_2.json";
+import topic3 from "../../../mocks/math/algebra/topic_3.json";
+import topic4 from "../../../mocks/math/algebra/topic_4.json";
+import topic5 from "../../../mocks/math/algebra/topic_5.json";
 
 function PageView() {
   const arithmetic = [
@@ -43,7 +43,7 @@ function PageView() {
     <Container>
       {!isItemSelected ? (
         <>
-          <Typography variant="h2">Ejercicios sobre matemáticas</Typography>
+          <Typography variant="h2">Ejercicios examen de la UNAL</Typography>
           <Typography variant="body1" align="justify">
             A continuación encontraras una serie de ejercicios de matemáticas en
             diferentes áreas. Te serán útiles en tu preparación para el examen

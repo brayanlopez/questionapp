@@ -1,7 +1,8 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 import { Grid } from "@mui/material";
+
 import NavigationComponent from "../components/Navigation/Navigation.component";
-import PageView from "./page.view";
 
 const MainView = () => {
   return (
@@ -11,7 +12,7 @@ const MainView = () => {
       sx={{ minHeight: "100vh", width: "100vw", margin: 0, padding: "0" }}
     >
       <NavigationComponent onClickBackButton={() => {}} />
-      <PageView />
+      <Outlet />
     </Grid>
   );
 };

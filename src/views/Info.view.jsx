@@ -7,7 +7,6 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
-import NavigationComponent from "../components/Navigation/Navigation.component";
 
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
@@ -31,7 +30,6 @@ const InfoView = () => {
         padding: "0",
       }}
     >
-      <NavigationComponent onClickBackButton={() => {}} />
       <Container>
         <Typography variant="h2">Preguntas frecuentes</Typography>
         <Typography variant="body1">

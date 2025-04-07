@@ -1,7 +1,9 @@
 import React from "react";
 import {
+  Box,
   Button,
   Divider,
+  List,
   ListItem,
   ListItemButton,
   ListItemIcon,
@@ -11,6 +13,7 @@ import {
 } from "@mui/material";
 import Drawer from "@mui/material/Drawer";
 import { useNavigate } from "react-router-dom";
+import { settings } from "./navigation.common";
 
 interface IDrawerProps {
   open: boolean;
@@ -43,16 +46,31 @@ export const DrawerComponent = ({
           Close Drawer
         </Typography>
       </Button>
+      <List>
+        {menuItems.map((item: any, index) => (
+          <ListItem key={index} disablePadding>
+            <ListItemButton onClick={() => onClickIem(item.path)}>
+              <ListItemIcon>{item?.icon}</ListItemIcon>
+              <ListItemText primary={item.name} />
+            </ListItemButton>
+          </ListItem>
+        ))}
+      </List>
 
-      {menuItems.map((item: any, index) => (
-        <ListItem key={index} disablePadding>
-          <ListItemButton onClick={() => onClickIem(item.path)}>
-            <ListItemIcon>{item?.icon}</ListItemIcon>
-            <ListItemText primary={item.name} />
-          </ListItemButton>
-        </ListItem>
-      ))}
       <Divider />
+      <Box sx={{ flexGrow: 1 }}></Box>
+
+      <List>
+        {settings.map((item: any, index) => (
+          <ListItem key={index} disablePadding>
+            <ListItemButton onClick={() => onClickIem(item.path)}>
+              <ListItemIcon>{item?.icon}</ListItemIcon>
+              <ListItemText primary={item.name} />
+            </ListItemButton>
+          </ListItem>
+        ))}
+      </List>
+
       <MenuList />
     </Drawer>
   );

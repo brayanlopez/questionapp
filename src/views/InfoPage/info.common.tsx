@@ -37,4 +37,11 @@ export const questions = [
     ),
   },
 ];
+
+// TODO: check for section between questions and more necessary things
+// ¿Dónde puedo encontrar más material sobre la UNAL?
+// ¿Tengo dudas sobre las pruebas específicas?
+// ¿Qué motivo la creación de esta página?
+// ¿?
+
 export default questions;

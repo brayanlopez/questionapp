@@ -10,15 +10,9 @@ import {
 
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
-import questions from "./InfoPage/info.common";
+import questions from "./info.common";
 
 const InfoView = () => {
-  // TODO: check for section between questions and more neccesary things
-  // ¿Dónde puedo encontrar más material sobre la UNAL?
-  // ¿Tengo dudas sobre las pruebas específicas?
-  // ¿Qué motivo la creación de esta página?
-  // ¿?
-
   return (
     <Grid
       className="main-container"

@@ -1,5 +1,8 @@
-import ContentPasteIcon from "@mui/icons-material/ContentPaste";
+import React from "react";
+
 import { Box, IconButton, Paper, Tooltip } from "@mui/material";
+
+import ContentPasteIcon from "@mui/icons-material/ContentPaste";
 
 const QuestionComponent = ({
   question: { statement, options, correct_answer, explanation },

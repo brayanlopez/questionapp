@@ -1,5 +1,6 @@
+import React from "react";
 import { Grid } from "@mui/material";
-import NavigationComponent from "../components/Navigation.component";
+import NavigationComponent from "../components/Navigation/Navigation.component";
 import PageView from "./page.view";
 
 const MainView = () => {
@@ -7,12 +8,7 @@ const MainView = () => {
     <Grid
       className="main-container"
       justifyContent="center"
-      sx={{
-        minHeight: "100vh",
-        width: "100vw",
-        margin: 0,
-        padding: "0",
-      }}
+      sx={{ minHeight: "100vh", width: "100vw", margin: 0, padding: "0" }}
     >
       <NavigationComponent onClickBackButton={() => {}} />
       <PageView />

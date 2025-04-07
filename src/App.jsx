@@ -32,7 +32,7 @@ function App() {
     ],
     {
       basename: MAIN_ROUTE,
-    }
+    },
   );
 
   return (

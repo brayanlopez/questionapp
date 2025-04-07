@@ -1,3 +1,5 @@
+import React from "react";
+
 import { Grid, Paper } from "@mui/material";
 
 const SectionComponent = () => {

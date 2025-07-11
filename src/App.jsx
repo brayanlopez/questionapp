@@ -5,7 +5,7 @@ import { purple } from "@mui/material/colors";
 
 import ErrorPage from "./views/ErrorPage/ErrorPage";
 import MainView from "./views/main.view";
-import InfoView from "./views/Info.view";
+import InfoView from "./views/InfoPage/Info.view";
 
 import {
   MAIN_ROUTE,

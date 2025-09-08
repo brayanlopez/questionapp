@@ -27,6 +27,7 @@ const ExamComponent = ({ questions, onClickBackButton }) => {
         flexWrap: "wrap",
         gap: "5px 0",
         textAlign: "start",
+        width: "100%",
       }}
     >
       <Box>

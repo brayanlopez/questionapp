@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
-import { deleteMathJaxNotation } from "../utils";
 import { renderHook } from "@testing-library/react";
+import { deleteMathJaxNotation } from "../utils";
 import { useCountdown } from "../useCountdown";
 
 describe("deleteMathJaxNotation", () => {

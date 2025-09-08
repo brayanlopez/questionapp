@@ -1,6 +1,6 @@
 import React from "react";
 import { describe, it, expect, beforeAll } from "vitest";
-import { render, screen, fireEvent } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import QuestionComponent from "../../components/Question.component.jsx";
 
 // Mock global MathJax for tests

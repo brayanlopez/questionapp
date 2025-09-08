@@ -8,7 +8,11 @@ import { DrawerComponent } from "./Drawer.component";
 
 import { menuItems } from "./navigation.common";
 
-const NavigationComponent = ({ onClickBackButton }) => {
+const NavigationComponent = ({
+  onClickBackButton,
+}: {
+  onClickBackButton: () => void;
+}) => {
   const [open, setOpen] = useState(false);
 
   const toggleDrawer = () => {

@@ -1,7 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import { Grid } from "@mui/material";
-
 import NavigationComponent from "../components/Navigation/Navigation.component";
 
 const MainView = () => {

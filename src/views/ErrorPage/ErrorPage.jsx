@@ -1,13 +1,11 @@
 import React from "react";
-import { useNavigate, useRouteError } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { Button } from "@mui/material";
 
 import "./ErrorPage.css";
 
 export default function ErrorPage() {
   const navigate = useNavigate();
-  const error = useRouteError();
-  console.error(error);
 
   return (
     <>

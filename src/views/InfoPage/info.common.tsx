@@ -4,9 +4,9 @@ import { Link } from "@mui/material";
 export const questions = [
   {
     question:
-      "Quiero copiar las preguntas, pero no me deja copiar algunos simbolos matemáticos.",
+      "Quiero copiar las preguntas, pero no me deja copiar algunos símbolos matemáticos.",
     answer:
-      "Cada pregunta tiene un boton de copiado, el cual te permite copiar la pregunta para usarla en alguna prueba que estes construyendo o incluso llevarla a algún modelo de inteligencia artificial como ChatGPT para hacerte una idea de como resolverla o revisar explicaciones alternativas.",
+      "Cada pregunta tiene un botón de copiado, el cual te permite copiar la pregunta para usarla en alguna prueba que estés construyendo o incluso llevarla a algún modelo de inteligencia artificial como ChatGPT para hacerte una idea de como resolverla o revisar explicaciones alternativas.",
   },
   {
     question: "Quiero ponerme en contacto con ustedes",
@@ -31,8 +31,8 @@ export const questions = [
         >
           Demostración Interactiva de la Prueba de Admisión
         </Link>{" "}
-        una aplicación conocida comunmente como pruebas DIPA. Es muy útil para
-        familiarizarse con el examén y el tipo de preguntas de la prueba.
+        una aplicación conocida comúnmente como pruebas DIPA. Es muy útil para
+        familiarizarse con el examen y el tipo de preguntas de la prueba.
       </>
     ),
   },

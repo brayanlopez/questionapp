@@ -18,8 +18,8 @@ const InfoView = () => {
       className="main-container"
       justifyContent="center"
       sx={{
-        minHeight: "100vh",
-        width: "100vw",
+        minHeight: "100%",
+        width: "100%",
         margin: 0,
         padding: "0",
       }}

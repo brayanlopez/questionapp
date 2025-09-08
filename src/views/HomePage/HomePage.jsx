@@ -7,7 +7,7 @@ import { TOPIC_ROUTES } from "../../utils/routes";
 import imageUrl from "/homework.svg";
 import "./homepage.css";
 
-const HomePage = () => {
+export const HomePage = () => {
   const navigate = useNavigate();
   const onClickButton = () => {
     navigate(TOPIC_ROUTES.UNAL);

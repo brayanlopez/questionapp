@@ -9,7 +9,7 @@ describe("ErrorPage", () => {
     render(
       <MemoryRouter>
         <ErrorPage />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
     expect(document.body.textContent).toMatch(/404|error/i);
   });

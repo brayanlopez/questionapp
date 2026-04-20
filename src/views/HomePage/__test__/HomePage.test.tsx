@@ -23,11 +23,11 @@ describe("HomePage", () => {
     render(
       <MemoryRouter>
         <HomePage />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
     expect(screen.getByText(/Bienvenido a QuestionApp/i)).toBeInTheDocument();
     expect(
-      screen.getByRole("button", { name: /Comienza a practicar/i })
+      screen.getByRole("button", { name: /Comienza a practicar/i }),
     ).toBeInTheDocument();
   });
 
@@ -35,7 +35,7 @@ describe("HomePage", () => {
     render(
       <MemoryRouter>
         <HomePage />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
     expect(screen.getByRole("img")).toBeInTheDocument();
   });
@@ -44,7 +44,7 @@ describe("HomePage", () => {
     render(
       <MemoryRouter>
         <HomePage />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
     const button = screen.getByRole("button", {
       name: /Comienza a practicar/i,

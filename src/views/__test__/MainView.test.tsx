@@ -10,7 +10,7 @@ describe("MainView", () => {
     const { container } = render(
       <MemoryRouter>
         <MainView />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
     expect(container.querySelector(".main-container")).toBeInTheDocument();
   });

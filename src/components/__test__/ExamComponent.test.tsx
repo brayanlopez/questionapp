@@ -26,7 +26,7 @@ beforeAll(() => {
 describe("ExamComponent", () => {
   it("should render exam title and questions", () => {
     render(
-      <ExamComponent questions={mockQuestions} onClickBackButton={() => {}} />
+      <ExamComponent questions={mockQuestions} onClickBackButton={() => {}} />,
     );
     expect(screen.getByText(/Test Exam/i)).toBeInTheDocument();
     expect(screen.getByText(/Pregunta 1/i)).toBeInTheDocument();

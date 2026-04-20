@@ -9,7 +9,7 @@ describe("NavigationComponent", () => {
     const { getByLabelText, getByText } = render(
       <MemoryRouter>
         <NavigationComponent onClickBackButton={() => {}} />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
     expect(getByLabelText(/open drawer/i)).toBeInTheDocument();
     expect(getByText(/QuestionApp/i)).toBeInTheDocument();

@@ -26,10 +26,10 @@ describe("QuestionComponent", () => {
         onCopy={() => {}}
         tooltipMessage="copiar pregunta"
         onCloseTooltip={() => {}}
-      />
+      />,
     );
     expect(
-      screen.getByText(/¿Cuál es la capital de Francia?/i)
+      screen.getByText(/¿Cuál es la capital de Francia?/i),
     ).toBeInTheDocument();
     expect(screen.getByText(/Madrid/i)).toBeInTheDocument();
     expect(screen.getAllByText(/París/i)[0]).toBeInTheDocument();

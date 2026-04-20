@@ -18,7 +18,7 @@ const QuestionaryView = () => {
   const questions = [
     {
       statement:
-        "Considere las siguientes propociones relacionadas con los númeroes reales, dado a=-17/12 y b=15/12. \n (1) Entre a y b hay exactamente 3 números enteros. \n (2) En la recta númerica la coordenada el punto medio entre a y b es -1/12",
+        "Considere las siguientes proporciones relacionadas con los números reales, dado a=-17/12 y b=15/12. \n (1) Entre a y b hay exactamente 3 números enteros. \n (2) En la recta numérica la coordenada el punto medio entre a y b es -1/12",
       type: "Multiple",
       options: [
         "a. (1) y (2) son verdaderas",
@@ -41,7 +41,7 @@ const QuestionaryView = () => {
       ],
       correct_answer: "a",
       explanation:
-        "Si llevamos la fracción 2/5 a porcentaje, se observa que el 40% del curso son mujeres. Por tanto, el 60% deben ser hombres. Facilmente se deduce que hay más hombres que mujeres en el curso.",
+        "Si llevamos la fracción 2/5 a porcentaje, se observa que el 40% del curso son mujeres. Por tanto, el 60% deben ser hombres. Fácilmente se deduce que hay más hombres que mujeres en el curso.",
     },
   ];
 

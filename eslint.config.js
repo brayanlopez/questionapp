@@ -5,6 +5,9 @@ import tseslint from "typescript-eslint";
 import pluginReact from "eslint-plugin-react";
 
 export default defineConfig([
+  {
+    ignores: ["node_modules/**", "dist/**", "build/**"],
+  },
   { files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"] },
   {
     files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"],

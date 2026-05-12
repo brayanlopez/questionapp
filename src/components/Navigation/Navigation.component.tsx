@@ -6,6 +6,8 @@ import {
   Toolbar,
   Typography,
   useTheme,
+  alpha,
+  Box,
 } from "@mui/material";
 
 import MenuIcon from "@mui/icons-material/Menu";
@@ -17,11 +19,7 @@ import { DrawerComponent } from "./Drawer.component";
 import { menuItems } from "./navigation.common";
 import { useColorMode } from "../../utils/ThemeContext";
 
-const NavigationComponent = ({
-  onClickBackButton,
-}: {
-  onClickBackButton: () => void;
-}) => {
+const NavigationComponent = () => {
   const [open, setOpen] = useState(false);
   const theme = useTheme();
   const { toggleColorMode } = useColorMode();
@@ -31,11 +29,19 @@ const NavigationComponent = ({
   };
 
   return (
-    <AppBar position="static">
+    <AppBar
+      position="static"
+      elevation={0}
+      sx={{
+        borderBottom: 1,
+        borderColor: alpha(theme.palette.divider, 0.6),
+        background: `linear-gradient(135deg, ${theme.palette.primary.dark}, ${theme.palette.primary.main})`,
+      }}
+    >
       <Toolbar
         variant="dense"
         sx={{
-          pr: "24px",
+          px: { xs: 1, sm: 2 },
         }}
       >
         <IconButton
@@ -43,7 +49,7 @@ const NavigationComponent = ({
           color="inherit"
           aria-label="open drawer"
           onClick={toggleDrawer}
-          sx={{ mr: 2 }}
+          sx={{ mr: 1 }}
         >
           <MenuIcon />
         </IconButton>
@@ -54,26 +60,21 @@ const NavigationComponent = ({
           menuItems={menuItems}
         />
 
-        <Typography
-          variant="h6"
-          color="inherit"
-          component="div"
-          sx={{ flexGrow: 1 }}
+        <Box
+          component={Link}
+          to="/"
+          sx={{
+            flexGrow: 1,
+            color: "inherit",
+            textDecoration: "none",
+          }}
         >
-          <Link
-            to={"/"}
-            style={{
-              color: "white",
-              fontWeight: "bold",
-              textDecoration: "none",
-            }}
-            onClick={onClickBackButton}
-          >
+          <Typography variant="h6" fontWeight={700} noWrap>
             QuestionApp
-          </Link>
-        </Typography>
+          </Typography>
+        </Box>
 
-        <IconButton color="inherit" onClick={toggleColorMode}>
+        <IconButton color="inherit" onClick={toggleColorMode} sx={{ ml: 1 }}>
           {theme.palette.mode === "dark" ? <LightModeIcon /> : <DarkModeIcon />}
         </IconButton>
       </Toolbar>

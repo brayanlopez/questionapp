@@ -1,22 +1,30 @@
 import React from "react";
 import { Link } from "@mui/material";
 
+import ContentPasteIcon from "@mui/icons-material/ContentPaste";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import SchoolIcon from "@mui/icons-material/School";
+import ComputerIcon from "@mui/icons-material/Computer";
+
 export const questions = [
   {
     question:
       "Quiero copiar las preguntas, pero no me deja copiar algunos símbolos matemáticos.",
     answer:
       "Cada pregunta tiene un botón de copiado, el cual te permite copiar la pregunta para usarla en alguna prueba que estés construyendo o incluso llevarla a algún modelo de inteligencia artificial como ChatGPT para hacerte una idea de como resolverla o revisar explicaciones alternativas.",
+    icon: <ContentPasteIcon />,
   },
   {
     question: "Quiero ponerme en contacto con ustedes",
     answer:
       " Si tienes alguna duda, encontraste un error en alguna pregunta o tienes alguna sugerencia no dudes en contactarnos en otro.canal.contacto@gmail.com ",
+    icon: <MailOutlineIcon />,
   },
   {
     question: "¿Tienen algún convenio con alguna universidad?",
     answer:
       "No, actualmente no tenemos ningún convenio o patrocinio con ninguna universidad o institución",
+    icon: <SchoolIcon />,
   },
   {
     question:
@@ -35,6 +43,7 @@ export const questions = [
         familiarizarse con el examen y el tipo de preguntas de la prueba.
       </>
     ),
+    icon: <ComputerIcon />,
   },
 ];
 

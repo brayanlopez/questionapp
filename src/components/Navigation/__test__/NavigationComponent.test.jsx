@@ -8,7 +8,7 @@ describe("NavigationComponent", () => {
   it("should render menu icon and title", () => {
     const { getByLabelText, getByText } = render(
       <MemoryRouter>
-        <NavigationComponent onClickBackButton={() => {}} />
+        <NavigationComponent />
       </MemoryRouter>,
     );
     expect(getByLabelText(/open drawer/i)).toBeInTheDocument();

@@ -1,24 +1,27 @@
 import React from "react";
 import {
   Box,
-  Button,
   Divider,
+  Drawer,
+  IconButton,
   List,
   ListItem,
   ListItemButton,
   ListItemIcon,
   ListItemText,
-  MenuList,
   Typography,
+  useTheme,
+  alpha,
 } from "@mui/material";
-import Drawer from "@mui/material/Drawer";
-import { useNavigate } from "react-router-dom";
-import { settings } from "./navigation.common";
+import { useLocation, useNavigate } from "react-router-dom";
+import CloseIcon from "@mui/icons-material/Close";
+
+import { NavItem, settings } from "./navigation.common";
 
 interface IDrawerProps {
   open: boolean;
   toggleDrawer: () => void;
-  menuItems: [];
+  menuItems: NavItem[];
 }
 
 export const DrawerComponent = ({
@@ -27,51 +30,107 @@ export const DrawerComponent = ({
   menuItems,
 }: IDrawerProps) => {
   const navigate = useNavigate();
+  const location = useLocation();
+  const theme = useTheme();
 
-  const onClickIem = (item) => {
-    navigate(item);
+  const onClickItem = (path: string) => {
+    navigate(path);
     toggleDrawer();
   };
 
+  const drawerWidth = 280;
+
   return (
-    <Drawer open={open} onClose={toggleDrawer}>
-      {/* <Toolbar></Toolbar> */}
-      <Button
-        variant="text"
-        onClick={toggleDrawer}
-        sx={{ width: "100%", margin: 0 }}
+    <Drawer
+      open={open}
+      onClose={toggleDrawer}
+      sx={{
+        "& .MuiDrawer-paper": {
+          width: drawerWidth,
+          boxSizing: "border-box",
+        },
+      }}
+    >
+      <Box
+        sx={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          px: 2,
+          py: 1.5,
+          borderBottom: 1,
+          borderColor: alpha(theme.palette.divider, 0.6),
+        }}
       >
-        {/* <ChevronLeftIcon /> */}
-        <Typography variant="body1" color="initial">
-          Close Drawer
+        <Typography variant="subtitle1" fontWeight={700} color="primary.main">
+          QuestionApp
         </Typography>
-      </Button>
-      <List>
-        {menuItems.map((item: any, index) => (
-          <ListItem key={index} disablePadding>
-            <ListItemButton onClick={() => onClickIem(item.path)}>
-              <ListItemIcon>{item?.icon}</ListItemIcon>
-              <ListItemText primary={item.name} />
-            </ListItemButton>
-          </ListItem>
-        ))}
+        <IconButton onClick={toggleDrawer} size="small">
+          <CloseIcon />
+        </IconButton>
+      </Box>
+
+      <List sx={{ px: 1, pt: 1 }}>
+        {menuItems.map((item, index) => {
+          const isActive = location.pathname === item.path;
+          return (
+            <ListItem key={index} disablePadding sx={{ mb: 0.5 }}>
+              <ListItemButton
+                onClick={() => onClickItem(item.path)}
+                selected={isActive}
+                sx={{
+                  borderRadius: 2,
+                  "&.Mui-selected": {
+                    bgcolor: alpha(theme.palette.primary.main, 0.1),
+                    "&:hover": {
+                      bgcolor: alpha(theme.palette.primary.main, 0.15),
+                    },
+                    "& .MuiListItemIcon-root": { color: "primary.main" },
+                    "& .MuiListItemText-primary": {
+                      fontWeight: 600,
+                      color: "primary.main",
+                    },
+                  },
+                }}
+              >
+                <ListItemIcon>{item.icon}</ListItemIcon>
+                <ListItemText primary={item.name} />
+              </ListItemButton>
+            </ListItem>
+          );
+        })}
       </List>
+
+      <Box sx={{ flexGrow: 1 }} />
 
       <Divider />
-      <Box sx={{ flexGrow: 1 }}></Box>
-
-      <List>
-        {settings.map((item: any, index) => (
-          <ListItem key={index} disablePadding>
-            <ListItemButton onClick={() => onClickIem(item.path)}>
-              <ListItemIcon>{item?.icon}</ListItemIcon>
-              <ListItemText primary={item.name} />
-            </ListItemButton>
-          </ListItem>
-        ))}
+      <List sx={{ px: 1, pb: 1 }}>
+        {settings.map((item, index) => {
+          const isActive = location.pathname === item.path;
+          return (
+            <ListItem key={index} disablePadding sx={{ mb: 0.5 }}>
+              <ListItemButton
+                onClick={() => onClickItem(item.path)}
+                selected={isActive}
+                sx={{
+                  borderRadius: 2,
+                  "&.Mui-selected": {
+                    bgcolor: alpha(theme.palette.primary.main, 0.1),
+                    "& .MuiListItemIcon-root": { color: "primary.main" },
+                    "& .MuiListItemText-primary": {
+                      fontWeight: 600,
+                      color: "primary.main",
+                    },
+                  },
+                }}
+              >
+                <ListItemIcon>{item.icon}</ListItemIcon>
+                <ListItemText primary={item.name} />
+              </ListItemButton>
+            </ListItem>
+          );
+        })}
       </List>
-
-      <MenuList />
     </Drawer>
   );
 };

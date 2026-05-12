@@ -10,7 +10,7 @@ const MainView = () => {
       justifyContent="center"
       sx={{ minHeight: "100vh", width: "100vw", margin: 0, padding: "0" }}
     >
-      <NavigationComponent onClickBackButton={() => {}} />
+      <NavigationComponent />
       <Outlet />
     </Grid>
   );

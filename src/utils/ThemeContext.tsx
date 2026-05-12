@@ -5,10 +5,7 @@ import {
   CssBaseline,
 } from "@mui/material";
 import { purple } from "@mui/material/colors";
-
-interface ColorModeContextValue {
-  toggleColorMode: () => void;
-}
+import type { ColorModeContextValue, ThemeProviderProps } from "../types";
 
 const ColorModeContext = createContext<ColorModeContextValue>({
   toggleColorMode: () => {},
@@ -16,7 +13,7 @@ const ColorModeContext = createContext<ColorModeContextValue>({
 
 export const useColorMode = () => useContext(ColorModeContext);
 
-export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
+export const ThemeProvider = ({ children }: ThemeProviderProps) => {
   const [mode, setMode] = useState<"light" | "dark">("light");
 
   const colorMode = useMemo(

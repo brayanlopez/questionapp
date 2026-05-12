@@ -11,23 +11,7 @@ import {
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import QuestionComponent from "./Question.component";
 import { deleteMathJaxNotation } from "../utils/utils";
-
-interface Question {
-  statement: string;
-  options: string[];
-  correct_answer: string;
-  explanation?: string;
-}
-
-interface ExamData {
-  title: string;
-  questions: Question[];
-}
-
-interface ExamComponentProps {
-  questions: ExamData;
-  onClickBackButton: () => void;
-}
+import type { Question, ExamComponentProps } from "../types";
 
 const ExamComponent = ({
   questions,

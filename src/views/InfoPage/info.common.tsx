@@ -5,8 +5,9 @@ import ContentPasteIcon from "@mui/icons-material/ContentPaste";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import SchoolIcon from "@mui/icons-material/School";
 import ComputerIcon from "@mui/icons-material/Computer";
+import type { FAQItem } from "../../types";
 
-export const questions = [
+export const questions: FAQItem[] = [
   {
     question:
       "Quiero copiar las preguntas, pero no me deja copiar algunos símbolos matemáticos.",

@@ -12,21 +12,7 @@ import {
 import ContentPasteIcon from "@mui/icons-material/ContentPaste";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
-
-interface Question {
-  statement: string;
-  options: string[];
-  correct_answer: string;
-  explanation?: string;
-}
-
-interface QuestionComponentProps {
-  question: Question;
-  index: number;
-  onCopy: () => void;
-  tooltipMessage: string;
-  onCloseTooltip: () => void;
-}
+import type { QuestionComponentProps } from "../types";
 
 const QuestionComponent = ({
   question: { statement, options, correct_answer, explanation },

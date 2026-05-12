@@ -1,7 +1,7 @@
 import React from "react";
 import { describe, it, expect, beforeAll } from "vitest";
 import { render, screen } from "@testing-library/react";
-import QuestionaryView from "../questionary.view.jsx";
+import QuestionaryView from "../questionary.view";
 
 // Mock global MathJax for tests
 beforeAll(() => {

@@ -20,7 +20,7 @@ A React-based study application for mathematical topics, designed to help univer
 
 ## Project Structure
 
-```
+```txt
 src/
 ├── components/       # Reusable UI components
 │   ├── Navigation/   # App navigation

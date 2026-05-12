@@ -1,12 +1,21 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { AppBar, IconButton, Toolbar, Typography } from "@mui/material";
+import {
+  AppBar,
+  IconButton,
+  Toolbar,
+  Typography,
+  useTheme,
+} from "@mui/material";
 
 import MenuIcon from "@mui/icons-material/Menu";
+import DarkModeIcon from "@mui/icons-material/DarkMode";
+import LightModeIcon from "@mui/icons-material/LightMode";
 
 import { DrawerComponent } from "./Drawer.component";
 
 import { menuItems } from "./navigation.common";
+import { useColorMode } from "../../utils/ThemeContext";
 
 const NavigationComponent = ({
   onClickBackButton,
@@ -14,6 +23,8 @@ const NavigationComponent = ({
   onClickBackButton: () => void;
 }) => {
   const [open, setOpen] = useState(false);
+  const theme = useTheme();
+  const { toggleColorMode } = useColorMode();
 
   const toggleDrawer = () => {
     setOpen(!open);
@@ -24,7 +35,7 @@ const NavigationComponent = ({
       <Toolbar
         variant="dense"
         sx={{
-          pr: "24px", // keep right padding when drawer closed
+          pr: "24px",
         }}
       >
         <IconButton
@@ -43,7 +54,12 @@ const NavigationComponent = ({
           menuItems={menuItems}
         />
 
-        <Typography variant="h6" color="inherit" component="div">
+        <Typography
+          variant="h6"
+          color="inherit"
+          component="div"
+          sx={{ flexGrow: 1 }}
+        >
           <Link
             to={"/"}
             style={{
@@ -56,6 +72,10 @@ const NavigationComponent = ({
             QuestionApp
           </Link>
         </Typography>
+
+        <IconButton color="inherit" onClick={toggleColorMode}>
+          {theme.palette.mode === "dark" ? <LightModeIcon /> : <DarkModeIcon />}
+        </IconButton>
       </Toolbar>
     </AppBar>
   );

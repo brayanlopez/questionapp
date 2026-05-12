@@ -14,7 +14,7 @@
       "explanation": ""
     },
     {
-      "statement": "Al dividir el polínomio \\(3x^3 + bx^2 + 7x - 1 \\) por \\( x^2 -1 \\) se obtiene como cociente \\( 3x - 5 \\) y como residuo \\(10x-6 \\). El valor de b es",
+      "statement": "Al dividir el polinomio \\(3x^3 + bx^2 + 7x - 1 \\) por \\( x^2 -1 \\) se obtiene como cociente \\( 3x - 5 \\) y como residuo \\(10x-6 \\). El valor de b es",
       "type": "Multiple",
       "options": ["a. \\(5\\)", "b. \\(10\\)", "c. \\(-10\\)", "d. \\(-5\\)"],
       "correct_answer": "",

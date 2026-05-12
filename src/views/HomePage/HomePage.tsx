@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Button } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 
 import { TOPIC_ROUTES } from "../../utils/routes";
 
@@ -20,11 +20,13 @@ export const HomePage = () => {
         </div>
 
         <div className="content">
-          <h3>Bienvenido a QuestionApp</h3>
-          <p>
+          <Typography variant="h3" gutterBottom>
+            Bienvenido a QuestionApp
+          </Typography>
+          <Typography variant="body1" color="text.secondary" sx={{ fontSize: "1.7rem", lineHeight: 2, pb: 2 }}>
             Este sitio ha sido desarrollado para que puedas practicar y
             aprender.
-          </p>
+          </Typography>
           <Button variant="contained" onClick={onClickButton}>
             Comienza a practicar
           </Button>

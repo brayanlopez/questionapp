@@ -29,6 +29,13 @@ export interface ExamComponentProps {
   onClickBackButton: () => void;
 }
 
+export interface QuizProps {
+  questions: Question[];
+  title?: string;
+  durationMinutes?: number;
+  onExit?: () => void;
+}
+
 export interface ColorModeContextValue {
   toggleColorMode: () => void;
 }
